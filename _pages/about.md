@@ -10,9 +10,7 @@ profile:
   image_circular: false
   more_info: >
     <p><strong>Prof. Jong Chul Ye</strong>, IEEE Fellow</p>
-    <p>N5 Building, Room 2221</p>
-    <p>291 Daehak-ro, Yuseong-gu</p>
-    <p>Daejeon 34141, Korea</p>
+
 
 selected_papers: true
 social: true
@@ -28,7 +26,7 @@ latest_posts:
   limit: 3
 ---
 
-**BISPL @ KAIST** is a group of researchers dedicated to investigating the beauty of
+**BISPL @ KAIST AI ** is a group of researchers dedicated to investigating the beauty of
 **bio-imaging, signal processing, and machine learning** for applications across healthcare,
 computer vision, and scientific discovery — led by [Prof. Jong Chul Ye](/professor/), IEEE Fellow.
 
