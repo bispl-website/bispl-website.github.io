@@ -98,7 +98,23 @@ h2.section-title { font-size: clamp(22px, 3vw, 30px); margin: 0 0 8px; color: va
   display: grid; place-items: center; color: #fff; font-weight: 800; font-size: 22px;
   background: linear-gradient(135deg, var(--blue), var(--accent));
 }
+.avatar-img {
+  width: 84px; height: 84px; border-radius: 50%; margin: 0 auto 12px;
+  object-fit: cover; display: block; border: 3px solid var(--bg-soft);
+  box-shadow: 0 2px 8px rgba(16,42,74,.12);
+}
 .member .name { font-weight: 700; color: var(--navy); }
+
+/* Alumni cards with thumbnail */
+.alum { display: flex; gap: 14px; align-items: center; padding: 16px; }
+.alum-photo {
+  width: 56px; height: 56px; min-width: 56px; border-radius: 50%;
+  object-fit: cover; border: 2px solid var(--bg-soft); box-shadow: 0 1px 5px rgba(16,42,74,.12);
+}
+.alum-init {
+  display: grid; place-items: center; color: #fff; font-weight: 700; font-size: 17px;
+  background: linear-gradient(135deg, var(--blue), var(--accent)); border: 0;
+}
 .member .role { color: var(--accent); font-size: 12.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .5px; }
 .member .edu { color: var(--muted); font-size: 13px; margin-top: 6px; }
 .group-title { font-size: 20px; color: var(--navy); font-weight: 800; margin: 34px 0 16px; padding-bottom: 8px; border-bottom: 2px solid var(--line); }
