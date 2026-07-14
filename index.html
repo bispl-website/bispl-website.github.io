@@ -1,32 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>BISPL @ KAIST — BioImaging, Signal Processing &amp; Machine Learning Lab</title>
-<meta name="description" content="BISPL @ KAIST — BioImaging, Signal Processing & Machine Learning Lab, led by Prof. Jong Chul Ye.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
-<link rel="stylesheet" href="assets/style.css">
-</head>
-<body>
-<header class="site-header">
-  <div class="wrap nav">
-    <a class="brand" href="index.html">BISPL <small>@ KAIST</small></a>
-    <button class="nav-toggle" aria-label="menu" onclick="document.getElementById('nav').classList.toggle('open')">&#9776;</button>
-    <nav class="nav-links" id="nav"><a href="index.html" class="active">Home</a><a href="professor.html">Professor</a><a href="members.html">Members</a><a href="alumni.html">Alumni</a><a href="research.html">Research</a><a href="publications.html">Publications</a><a href="awards.html">Hall of Fame</a></nav>
-  </div>
-</header>
-
+---
+layout: default
+title: "BISPL @ KAIST — BioImaging, Signal Processing & Machine Learning Lab"
+permalink: /
+---
 <section class="hero">
   <div class="wrap">
     <span class="kicker">BioImaging · Signal Processing · Machine Learning</span>
     <h1>Where imaging applications inspire<br>new mathematical theories.</h1>
     <p>An IEEE Fellow–led lab at KAIST advancing generative models, LLMs, computer vision,
     and healthcare AI — turning real imaging problems into fundamental theory.</p>
-    <a class="btn" href="research.html">Explore Research</a>
-    <a class="btn ghost" href="publications.html">View Publications</a>
+    <a class="btn" href="{{ '/research/' | relative_url }}">Explore Research</a>
+    <a class="btn ghost" href="{{ '/publications/' | relative_url }}">View Publications</a>
     <div class="hero-stats">
       <div class="hero-stat"><div class="num">280+</div><div class="lbl">Top-tier papers</div></div>
       <div class="hero-stat"><div class="num">179</div><div class="lbl">Journal papers</div></div>
@@ -35,23 +19,35 @@
     </div>
   </div>
 </section>
-<main>
 
+{% assign latest = site.posts | first %}
+{% if latest %}
 <section>
   <div class="wrap">
-    <p class="eyebrow">Latest Research Highlight</p>
-    <h2 class="section-title">FILT3R: Latent State Adaptive Kalman Filter for Streaming 3D Reconstruction</h2>
-    <p class="section-lead">Seonghyun Jin, Jong Chul Ye — ECCV 2026.</p>
+    <p class="eyebrow">Latest News</p>
+    <h2 class="section-title">{{ latest.title }}</h2>
+    <p class="section-lead">{{ latest.date | date: "%B %-d, %Y" }}</p>
   </div>
 </section>
+{% endif %}
+
 <section class="section-soft">
   <div class="wrap">
     <p class="eyebrow">News</p>
     <h2 class="section-title">Recent Announcements</h2>
-    <div class="timeline" style="margin-top:24px"><div class="tl-item"><span class="date">7/13/2026</span><h3>Academic Internship</h3><ul><li>The following two master students just started funded internships at prestigious institutes. Congratulations!</li><li>Jeongjae Lee @ MILA, Canada</li><li>Jonghyun Park @ Vector Institute, Canada</li></ul></div><div class="tl-item"><span class="date">6/18/2026</span><h3>Five papers accepted to ECCV 2026</h3><ul><li>FILT3R: Latent State Adaptive Kalman Filter for Streaming 3D Reconstruction</li><li>InverseCrafter: Efficient Video ReCapture as a Latent Domain Inverse Problem</li><li>Tiled Prompts: Overcoming Prompt Misguidance in Image and Video Super-Resolution</li><li>Memory-V2V: Memory-Augmented Video-to-Video Diffusion for Consistent Multi-Turn Editing</li><li>3D-ReGen: A Unified 3D Geometry Regeneration Framework</li></ul></div><div class="tl-item"><span class="date">5/13/2026</span><h3>Global Intern Dispatch from BISPL</h3><ul><li>Congratulations to seven BISPL students on starting their global internships this semester!</li><li>Suhyeon Lee — Adobe Research, UK · Chang Sun Lee — Siemens, USA · Jang Ho Park — Microsoft Research, USA</li><li>Jemin Kim, ByungHee Cha, Beomsu Kim, Chunsan Hong — Sony Research, Japan</li></ul></div><div class="tl-item"><span class="date">4/30/2026</span><h3>Five papers (two spotlights) accepted to ICML 2026</h3><ul><li>Unifying Masked Diffusion Models with Various Generation Orders and Beyond (spotlight, top 2.2%)</li><li>Universal Reasoner: A Single, Composable Plug-and-Play Reasoner for Frozen LLMs</li><li>Alignment-Guided Score Matching for Text-to-Image Alignment in Diffusion Models (spotlight, top 2.2%)</li><li>Align Your Trajectory Tangent: Training Better Consistency Models via Manifold-Aligned Tangents</li><li>ContrastiveCFG: Guiding Diffusion Sampling by Contrasting Positive and Negative Concepts</li></ul></div><div class="tl-item"><span class="date">2/21/2026</span><h3>Four papers accepted to CVPR 2026</h3><ul><li>PromptLoop: Plug-and-Play Prompt Refinement via Latent Feedback for Diffusion Model Alignment</li><li>ReDirector: Creating Any-Length Video Retakes with Rotary Camera Encoding</li><li>Reviving ConvNeXt for Efficient Convolutional Diffusion Models</li><li>Zero4D: Training-Free 4D Video Generation From Single Video (Findings)</li></ul></div></div>
-    <p style="margin-top:20px"><a href="publications.html">See all publications &rarr;</a></p>
+    <div class="timeline" style="margin-top:24px">
+      {% for post in site.posts limit:8 %}
+      <div class="tl-item">
+        <span class="date">{{ post.date | date: "%-m/%-d/%Y" }}</span>
+        <h3>{{ post.title }}</h3>
+        <div class="tl-body">{{ post.content }}</div>
+      </div>
+      {% endfor %}
+    </div>
+    <p style="margin-top:20px"><a href="{{ '/publications/' | relative_url }}">See all publications &rarr;</a></p>
   </div>
 </section>
+
 <section>
   <div class="wrap">
     <p class="eyebrow">About Us</p>
@@ -64,29 +60,3 @@
     and application-inspired fundamental theoretical problems.</p>
   </div>
 </section>
-</main>
-<footer class="site-footer">
-  <div class="wrap foot-grid">
-    <div>
-      <h4>BISPL @ KAIST</h4>
-      <p>BioImaging, Signal Processing &amp; machine Learning laboratory.<br>
-      Kim Jaechul Graduate School of AI, KAIST.</p>
-      <p>N5 Building, Room 2221<br>291 Daehak-ro, Yuseong-gu, Daejeon 34141, Korea</p>
-    </div>
-    <div>
-      <h4>Navigate</h4>
-      <ul><li><a href="index.html">Home</a></li><li><a href="professor.html">Professor</a></li><li><a href="members.html">Members</a></li><li><a href="alumni.html">Alumni</a></li><li><a href="research.html">Research</a></li><li><a href="publications.html">Publications</a></li><li><a href="awards.html">Hall of Fame</a></li></ul>
-    </div>
-    <div>
-      <h4>Links</h4>
-      <ul>
-        <li><a href="https://scholar.google.com/citations?user=HNMjoNEAAAAJ">Google Scholar</a></li>
-        <li><a href="https://arxiv.org/a/ye_j_1">arXiv Papers</a></li>
-        <li><a href="https://github.com/bispl-website">GitHub</a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="wrap foot-bottom">© 2026 BISPL @ KAIST. All rights reserved. · Migrated from bispl.weebly.com</div>
-</footer>
-</body>
-</html>

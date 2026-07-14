@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page.title | default: site.title }}</title>
+<meta name="description" content="{{ page.description | default: site.description }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="{{ '/' | relative_url }}">BISPL <small>@ KAIST</small></a>
+    <button class="nav-toggle" aria-label="menu" onclick="document.getElementById('nav').classList.toggle('open')">&#9776;</button>
+    <nav class="nav-links" id="nav">
+      {% for item in site.data.nav %}<a href="{{ item.url | relative_url }}"{% if page.url == item.url %} class="active"{% endif %}>{{ item.label }}</a>{% endfor %}
+    </nav>
+  </div>
+</header>
+
+{{ content }}
+
+<footer class="site-footer">
+  <div class="wrap foot-grid">
+    <div>
+      <h4>BISPL @ KAIST</h4>
+      <p>BioImaging, Signal Processing &amp; machine Learning laboratory.<br>
+      Kim Jaechul Graduate School of AI, KAIST.</p>
+      <p>N5 Building, Room 2221<br>291 Daehak-ro, Yuseong-gu, Daejeon 34141, Korea</p>
+    </div>
+    <div>
+      <h4>Navigate</h4>
+      <ul>{% for item in site.data.nav %}<li><a href="{{ item.url | relative_url }}">{{ item.label }}</a></li>{% endfor %}</ul>
+    </div>
+    <div>
+      <h4>Links</h4>
+      <ul>
+        <li><a href="https://scholar.google.com/citations?user=HNMjoNEAAAAJ">Google Scholar</a></li>
+        <li><a href="https://arxiv.org/a/ye_j_1">arXiv Papers</a></li>
+        <li><a href="https://github.com/bispl-website">GitHub</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap foot-bottom">© {{ 'now' | date: "%Y" }} BISPL @ KAIST. All rights reserved. · Migrated from bispl.weebly.com</div>
+</footer>
+</body>
+</html>

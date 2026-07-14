@@ -148,6 +148,11 @@ h2.section-title { font-size: clamp(23px, 3vw, 32px); margin: 0 0 12px; color: v
 .tl-item h3 { margin: 3px 0 8px; color: var(--navy); font-size: 17px; }
 .tl-item ul { margin: 6px 0 0; padding-left: 18px; color: var(--muted); font-size: 14px; }
 .tl-item li { margin: 3px 0; }
+.tl-body { color: var(--muted); font-size: 14px; }
+.tl-body p { margin: 4px 0; }
+.tl-body ul { margin: 6px 0 0; padding-left: 18px; }
+.tl-body em { color: var(--ink); font-style: italic; }
+.tl-body strong { color: var(--ink); }
 
 /* ---- Publications ---- */
 .pub-section { margin-bottom: 8px; }

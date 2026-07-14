@@ -1,60 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Research — BISPL @ KAIST</title>
-<meta name="description" content="BISPL @ KAIST — BioImaging, Signal Processing & Machine Learning Lab, led by Prof. Jong Chul Ye.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
-<link rel="stylesheet" href="assets/style.css">
-</head>
-<body>
-<header class="site-header">
-  <div class="wrap nav">
-    <a class="brand" href="index.html">BISPL <small>@ KAIST</small></a>
-    <button class="nav-toggle" aria-label="menu" onclick="document.getElementById('nav').classList.toggle('open')">&#9776;</button>
-    <nav class="nav-links" id="nav"><a href="index.html">Home</a><a href="professor.html">Professor</a><a href="members.html">Members</a><a href="alumni.html">Alumni</a><a href="research.html" class="active">Research</a><a href="publications.html">Publications</a><a href="awards.html">Hall of Fame</a></nav>
-  </div>
-</header>
-
-<main>
-
+---
+layout: default
+title: "Research — BISPL @ KAIST"
+permalink: /research/
+---
 <div class="wrap page-head">
   <h1>Research Themes</h1>
   <p>Imaging applications as a source of inspiration for new mathematical theories.</p>
 </div>
 <section style="padding-top:22px">
   <div class="wrap">
-    <div class="grid cols-3"><div class="card topic-card"><div class="ic">&#129504;</div><h3>Generative Models</h3><p style="color:var(--muted);margin:0">Diffusion and flow-based models for image, video, 3D/4D synthesis and inverse problems.</p></div><div class="card topic-card"><div class="ic">&#128172;</div><h3>Large Language Models</h3><p style="color:var(--muted);margin:0">Reasoning, diffusion language models, and clinical LLMs.</p></div><div class="card topic-card"><div class="ic">&#128065;</div><h3>Computer Vision</h3><p style="color:var(--muted);margin:0">Text-to-image generation &amp; editing, video, and 3D/4D scene generation.</p></div><div class="card topic-card"><div class="ic">&#129658;</div><h3>Healthcare AI</h3><p style="color:var(--muted);margin:0">Medical imaging reconstruction and clinical decision making.</p></div><div class="card topic-card"><div class="ic">&#128300;</div><h3>AI for Science</h3><p style="color:var(--muted);margin:0">Genomics, biological discovery, and physics-based inverse problems.</p></div><div class="card topic-card"><div class="ic">&#128295;</div><h3>Computational Imaging</h3><p style="color:var(--muted);margin:0">MRI, CT/PET reconstruction, super-resolution microscopy, and ultrasound.</p></div></div>
-    <p style="margin-top:28px"><a class="btn" href="publications.html" style="background:var(--blue);color:#fff">Browse Publications</a>
-    <a class="btn ghost" href="https://arxiv.org/a/ye_j_1" style="border-color:var(--line);color:var(--blue)">Latest arXiv &rarr;</a></p>
+    <div class="grid cols-3">
+    {% for t in site.data.research %}
+      <div class="card topic-card">
+        <div class="ic">{{ t.icon }}</div>
+        <h3>{{ t.title }}</h3>
+        <p style="color:var(--muted);margin:0">{{ t.desc }}</p>
+      </div>
+    {% endfor %}
+    </div>
+    <p style="margin-top:28px">
+      <a class="btn" href="{{ '/publications/' | relative_url }}" style="background:var(--blue);color:#fff">Browse Publications</a>
+      <a class="btn ghost" href="https://arxiv.org/a/ye_j_1" style="border-color:var(--line);color:var(--blue)">Latest arXiv &rarr;</a>
+    </p>
   </div>
 </section>
-</main>
-<footer class="site-footer">
-  <div class="wrap foot-grid">
-    <div>
-      <h4>BISPL @ KAIST</h4>
-      <p>BioImaging, Signal Processing &amp; machine Learning laboratory.<br>
-      Kim Jaechul Graduate School of AI, KAIST.</p>
-      <p>N5 Building, Room 2221<br>291 Daehak-ro, Yuseong-gu, Daejeon 34141, Korea</p>
-    </div>
-    <div>
-      <h4>Navigate</h4>
-      <ul><li><a href="index.html">Home</a></li><li><a href="professor.html">Professor</a></li><li><a href="members.html">Members</a></li><li><a href="alumni.html">Alumni</a></li><li><a href="research.html">Research</a></li><li><a href="publications.html">Publications</a></li><li><a href="awards.html">Hall of Fame</a></li></ul>
-    </div>
-    <div>
-      <h4>Links</h4>
-      <ul>
-        <li><a href="https://scholar.google.com/citations?user=HNMjoNEAAAAJ">Google Scholar</a></li>
-        <li><a href="https://arxiv.org/a/ye_j_1">arXiv Papers</a></li>
-        <li><a href="https://github.com/bispl-website">GitHub</a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="wrap foot-bottom">© 2026 BISPL @ KAIST. All rights reserved. · Migrated from bispl.weebly.com</div>
-</footer>
-</body>
-</html>

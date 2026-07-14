@@ -1,26 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Hall of Fame — BISPL @ KAIST</title>
-<meta name="description" content="BISPL @ KAIST — BioImaging, Signal Processing & Machine Learning Lab, led by Prof. Jong Chul Ye.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
-<link rel="stylesheet" href="assets/style.css">
-</head>
-<body>
-<header class="site-header">
-  <div class="wrap nav">
-    <a class="brand" href="index.html">BISPL <small>@ KAIST</small></a>
-    <button class="nav-toggle" aria-label="menu" onclick="document.getElementById('nav').classList.toggle('open')">&#9776;</button>
-    <nav class="nav-links" id="nav"><a href="index.html">Home</a><a href="professor.html">Professor</a><a href="members.html">Members</a><a href="alumni.html">Alumni</a><a href="research.html">Research</a><a href="publications.html">Publications</a><a href="awards.html" class="active">Hall of Fame</a></nav>
-  </div>
-</header>
-
-<main>
-
+---
+layout: default
+title: "Hall of Fame — BISPL @ KAIST"
+permalink: /awards/
+---
 <div class="wrap page-head">
   <h1>Hall of Fame</h1>
   <p>Created in 2013 to recognize outstanding research and service by BISPL members each year.</p>
@@ -32,32 +14,14 @@
       <div class="card topic-card"><h3>Best Doctoral Student</h3><p style="color:var(--muted);margin:0">Best among Ph.D. students.</p></div>
       <div class="card topic-card"><h3>Best Master Student</h3><p style="color:var(--muted);margin:0">Best among M.S. students.</p></div>
     </div>
-    <div class="timeline"><div class="tl-item"><span class="date">2025 BISPL Award</span><h3>The 2025 award ceremony was held on Dec. 30, 2025.</h3><ul><li><strong>Best Researcher of the Year:</strong> Jeongsol Kim</li><li><strong>Best Doctoral Student:</strong> Jemin Kim</li><li><strong>Best Master Student:</strong> Bryan Sangwoo Kim</li></ul></div><div class="tl-item"><span class="date">2024 BISPL Award</span><h3>Held on Dec. 27, 2024.</h3><ul><li><strong>Best Researcher of the Year:</strong> Hyungjin Chung</li><li><strong>Best PhD Student:</strong> Geon Yeong Park, Jeongsol Kim</li><li><strong>Best Master Student:</strong> Hyeonho Jeong, Jemin Kim</li></ul></div><div class="tl-item"><span class="date">2023 BISPL Award</span><h3>Held on Dec. 27, 2023.</h3><ul><li><strong>Best Researcher of the Year:</strong> Hyungjin Chung</li><li><strong>Best Doctoral Student:</strong> Gihyun Kwon</li><li><strong>Best Master Student:</strong> Hyeonho Jeong</li></ul></div><div class="tl-item"><span class="date">2022 BISPL Award</span><h3>Held on Dec. 21, 2022 @ Sweet Beijing.</h3><ul><li><strong>Best Researcher of the Year:</strong> Hyungjin Chung</li><li><strong>Best Doctoral Student:</strong> Sangjoon Park</li><li><strong>Best Master Student:</strong> Beomsu Kim</li></ul></div><div class="tl-item"><span class="date">2021 BISPL Award</span><h3>Held on Dec. 29, 2021.</h3><ul><li><strong>Best Researcher of the Year:</strong> Hyungjin Chung</li><li><strong>Best Doctoral Student:</strong> Sangjoon Park</li><li><strong>Best Master Student:</strong> Gwanghyun Kim</li></ul></div><div class="tl-item"><span class="date">2020 BISPL Award</span><h3>Held on Dec. 29, 2020.</h3><ul><li><strong>Best Researcher of the Year:</strong> Hyungjin Chung</li><li><strong>Best Doctoral Student:</strong> Eunju Cha</li><li><strong>Best Master Student:</strong> Gyutaek Oh</li></ul></div><div class="tl-item"><span class="date">2019 BISPL Award</span><h3>Held on Dec. 23, 2019.</h3><ul><li><strong>Best Researcher of the Year:</strong> Shujaat Khan, Eunju Cha</li><li><strong>Best Doctoral Student:</strong> Boah Kim</li><li><strong>Best Master Student:</strong> Jaeyoung Huh</li></ul></div><div class="tl-item"><span class="date">2018 BISPL Award</span><h3>Held on Dec. 28, 2018.</h3><ul><li><strong>Best Researcher of the Year:</strong> Yoseob Han</li><li><strong>Best Doctoral Student:</strong> Eunhee Kang</li><li><strong>Best Master Student:</strong> Boah Kim</li></ul></div><div class="tl-item"><span class="date">2017 BISPL Award</span><h3>Held on Dec. 22, 2017.</h3><ul><li><strong>Best Researcher of the Year:</strong> Abdul Wahab</li><li><strong>Best Doctoral Student:</strong> Yoseob Han</li><li><strong>Best Master Student:</strong> Yeohun Yoon</li></ul></div><div class="tl-item"><span class="date">2016 BISPL Award</span><h3>Held on Dec. 28, 2016.</h3><ul><li><strong>Best Researcher of the Year:</strong> Dr. Abdul Wahab</li><li><strong>Best Doctoral Student:</strong> Juyoung Lee, Eunhee Kang, Jaejun Yoo</li><li><strong>Best Master Student:</strong> Eun Ju Cha</li></ul></div></div>
+    <div class="timeline">
+    {% for a in site.data.awards %}
+      <div class="tl-item">
+        <span class="date">{{ a.year }} BISPL Award</span>
+        <h3>{{ a.note | escape }}</h3>
+        <ul>{% for w in a.winners %}<li><strong>{{ w.cat | escape }}:</strong> {{ w.who | escape }}</li>{% endfor %}</ul>
+      </div>
+    {% endfor %}
+    </div>
   </div>
 </section>
-</main>
-<footer class="site-footer">
-  <div class="wrap foot-grid">
-    <div>
-      <h4>BISPL @ KAIST</h4>
-      <p>BioImaging, Signal Processing &amp; machine Learning laboratory.<br>
-      Kim Jaechul Graduate School of AI, KAIST.</p>
-      <p>N5 Building, Room 2221<br>291 Daehak-ro, Yuseong-gu, Daejeon 34141, Korea</p>
-    </div>
-    <div>
-      <h4>Navigate</h4>
-      <ul><li><a href="index.html">Home</a></li><li><a href="professor.html">Professor</a></li><li><a href="members.html">Members</a></li><li><a href="alumni.html">Alumni</a></li><li><a href="research.html">Research</a></li><li><a href="publications.html">Publications</a></li><li><a href="awards.html">Hall of Fame</a></li></ul>
-    </div>
-    <div>
-      <h4>Links</h4>
-      <ul>
-        <li><a href="https://scholar.google.com/citations?user=HNMjoNEAAAAJ">Google Scholar</a></li>
-        <li><a href="https://arxiv.org/a/ye_j_1">arXiv Papers</a></li>
-        <li><a href="https://github.com/bispl-website">GitHub</a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="wrap foot-bottom">© 2026 BISPL @ KAIST. All rights reserved. · Migrated from bispl.weebly.com</div>
-</footer>
-</body>
-</html>

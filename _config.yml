@@ -1,0 +1,29 @@
+title: BISPL @ KAIST
+description: BioImaging, Signal Processing & machine Learning laboratory at KAIST, led by Prof. Jong Chul Ye.
+url: https://bispl-website.github.io
+baseurl: ""
+lang: en
+
+# Show posts dated in the future (news items may be post-dated)
+future: true
+
+# News post URLs
+permalink: /news/:title/
+
+# Individual news pages get the post layout automatically
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+# Don't let Jekyll try to process the raw Weebly backup or tooling
+exclude:
+  - _assets
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - _mirror_errors.log
+
+# Ignore Kramdown/Rouge defaults are fine; nothing else needed.
