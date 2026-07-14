@@ -25,5 +25,6 @@ exclude:
   - Gemfile.lock
   - vendor
   - _mirror_errors.log
+  - README.md
 
 # Ignore Kramdown/Rouge defaults are fine; nothing else needed.
