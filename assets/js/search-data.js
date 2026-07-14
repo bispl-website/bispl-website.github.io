@@ -24,7 +24,7 @@ ninja.data = [{
             window.location.href = "/people/";
           },
         },{id: "nav-publications",
-          title: "publications",
+          title: "Publications",
           description: "Publications by BISPL @ KAIST, in reverse chronological order.",
           section: "Navigation",
           handler: () => {
