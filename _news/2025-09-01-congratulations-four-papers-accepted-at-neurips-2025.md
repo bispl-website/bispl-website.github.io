@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Congratulations —four papers accepted at NeurIPS 2025!"
+date: 2025-09-01 12:00:00
+inline: false
+---
+
+The following papers got accepted to NeurIPS 2025. Congratulations to all authors! Bryan Sangwoo Kim , Jeongsol Kim , Jong Chul Ye, " [Chain-of-Zoom: Extreme Super-Resolution via Scale Autoregression and Preference Alignment](https://openreview.net/forum?id=I8S4ASqO5H&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DNeurIPS.cc%2F2025%2FConference%2FAuthors%23your-submissions))", *Conference on Neural Information Processing Systems (NeurIPS* *),* 2025. **(spotlight)** Jaa-Yeon Lee , ByungHee Cha , Jeongsol Kim , Jong Chul Ye," [Aligning Text to Image in Diffusion Models is Easier Than You Think](https://openreview.net/forum?id=ToMjBgXwhw&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DNeurIPS.cc%2F2025%2FConference%2FAuthors%23your-submissions))", *Conference on Neural Information Processing Systems (NeurIPS* *),* 2025. Jiachen Yao , Abbas Mammadov , Julius Berner , Gavin Kerrigan , Jong Chul Ye , Kamyar Azizzadenesheli , Anima Anandkumar, " [Guided Diffusion Sampling on Function Spaces with Applications to PDEs](https://openreview.net/forum?id=oAgwvZay2U&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DNeurIPS.cc%2F2025%2FConference%2FAuthors%23your-submissions))", *Conference on Neural Information Processing Systems (NeurIPS* *),* 2025. Noam Elata , Hyungjin Chung , Jong Chul Ye , Tomer Michaeli , Michael Elad," [InvFussion: Bridging Supervised and Zero-shot Diffusion for Inverse Problems](https://openreview.net/forum?id=73guIWG7fk&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DNeurIPS.cc%2F2025%2FConference%2FAuthors%23your-submissions))", *Conference on Neural Information Processing Systems (NeurIPS* *),* 2025.
