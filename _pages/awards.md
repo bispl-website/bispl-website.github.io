@@ -4,7 +4,7 @@ permalink: /awards/
 title: hall of fame
 description: BISPL annual awards, recognizing outstanding research and service since 2013.
 nav: true
-nav_order: 5
+nav_order: 6
 ---
 
 The **BISPL Awards** were created in 2013 to recognize the contributions of BISPL researchers

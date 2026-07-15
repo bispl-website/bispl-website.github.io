@@ -2,7 +2,7 @@
 layout: page
 permalink: /people/
 title: people
-description: Current members and alumni of BISPL @ KAIST.
+description: Current members of BISPL @ KAIST.
 nav: true
 nav_order: 2
 ---
@@ -15,15 +15,7 @@ nav_order: 2
 .person .nm { font-weight: 600; line-height: 1.2; }
 .person .ed { font-size: .72rem; color: var(--global-text-color-light); margin-top: .2rem; }
 .people-h { border-bottom: 1px solid var(--global-divider-color); padding-bottom: .3rem; margin: 1.8rem 0 1.1rem; }
-.alum-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 1rem; margin-bottom: 1.6rem; }
-.alum { display: flex; gap: .7rem; align-items: center; }
-.alum .ph { width: 52px; height: 52px; min-width: 52px; border-radius: 50%; object-fit: cover; }
-.alum .ph-init { display: grid; place-items: center; font-weight: 700; color: #fff; font-size: .95rem; background: linear-gradient(135deg, var(--global-theme-color), #12a3a3); }
-.alum .nm { font-weight: 600; font-size: .9rem; line-height: 1.15; }
-.alum .ed { font-size: .72rem; color: var(--global-text-color-light); }
 </style>
-
-<h2>Members</h2>
 
 {% for g in site.data.members %}
 <h3 class="people-h">{{ g.group }} <span style="color: var(--global-text-color-light); font-weight: 400; font-size: .8em;">· {{ g.people | size }}</span></h3>
@@ -38,19 +30,6 @@ nav_order: 2
 </div>
 {% endfor %}
 
-<h2 style="margin-top: 2.5rem;">Alumni</h2>
-
-{% for c in site.data.alumni %}
-<h3 class="people-h">{{ c.category }} <span style="color: var(--global-text-color-light); font-weight: 400; font-size: .8em;">· {{ c.people | size }}</span></h3>
-<div class="alum-grid">
-{% for p in c.people %}
-  <div class="alum">
-    {% if p.photo %}<img class="ph" src="{{ p.photo | relative_url }}" alt="{{ p.name }}" loading="lazy">{% else %}<div class="ph ph-init">{{ p.initials }}</div>{% endif %}
-    <div>
-      <div class="nm">{{ p.name }}</div>
-      <div class="ed">{{ p.detail }}</div>
-    </div>
-  </div>
-{% endfor %}
-</div>
-{% endfor %}
+<p style="margin-top: 2rem; color: var(--global-text-color-light);">
+Looking for former members? See the <a href="{{ '/alumni/' | relative_url }}">alumni page</a>.
+</p>
