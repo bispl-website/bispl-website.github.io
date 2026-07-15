@@ -21,6 +21,16 @@ Korea Advanced Inst. of Science & Technology (KAIST)
 
 ---
 
+{% assign cv = site.static_files | where: "path", "/assets/pdf/cv.pdf" | first %}
+{% if cv %}
+<div class="cv-block">
+  <a class="cv-download" href="{{ '/assets/pdf/cv.pdf' | relative_url }}" target="_blank" rel="noopener">⬇&nbsp; Download CV (PDF)</a>
+  <iframe class="cv-embed" src="{{ '/assets/pdf/cv.pdf' | relative_url }}" title="Curriculum Vitae"></iframe>
+</div>
+{% else %}
+
+<blockquote>📄 <strong>To publish the full CV here, upload it as <code>assets/pdf/cv.pdf</code></strong> — the page will then show your CV automatically (the photo and heading above stay). Until then, the summary below is shown.</blockquote>
+
 ### Education
 
 - **Postdoctoral Researcher**, Coordinated Science Lab., Univ. of Illinois at Urbana-Champaign, 1999–2001 (Advisors: Yoram Bresler, Pierre Moulin)
@@ -59,3 +69,4 @@ Korea Advanced Inst. of Science & Technology (KAIST)
 
 Machine learning & deep learning · Computer vision & generative models · Computational imaging ·
 MRI signal processing · CT/PET reconstruction · Super-resolution microscopy · Inverse problems
+{% endif %}
