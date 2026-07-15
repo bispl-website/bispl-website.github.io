@@ -27,8 +27,8 @@ $max-content-width: {{ site.max_width }};
 
 // ---- Theme accent color: blue instead of al-folio's magenta ----
 :root {
-  --global-theme-color: #1257a0;   // 파란색 (제목·섹션헤더·링크 등)
-  --global-hover-color: #1257a0;
+  --global-theme-color: #106AFF // #1257a0;   // 파란색 (제목·섹션헤더·링크 등)
+  --global-hover-color: #106AFF //#1257a0;
 }
 html[data-theme="dark"] {
   --global-theme-color: #6aa9e9;   // 다크모드용 밝은 파랑
