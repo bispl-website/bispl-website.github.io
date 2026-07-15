@@ -17,7 +17,7 @@ ninja.data = [{
             window.location.href = "/news/";
           },
         },{id: "nav-people",
-          title: "People",
+          title: "people",
           description: "Current members of BISPL @ KAIST.",
           section: "Navigation",
           handler: () => {
