@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /people/
-title: people
+title: People
 description: Current members of BISPL @ KAIST.
 nav: true
 nav_order: 2
