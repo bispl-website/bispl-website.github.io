@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /awards/
-title: hall of fame
+title: Hall of Fame
 description: BISPL annual awards, recognizing outstanding research and service since 2013.
 nav: true
 nav_order: 6
