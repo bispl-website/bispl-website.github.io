@@ -94,6 +94,13 @@ code, pre, kbd, tt, samp, .highlight, .highlighter-rouge {
   opacity: 0.45;
 }
 
+// ---- Nav tabs: bold + capitalized first letters ----
+.navbar-nav .nav-item a.nav-link {
+  font-weight: 700 !important;
+  text-transform: capitalize;
+  letter-spacing: .01em;
+}
+
 // ---- Home: Latest Research Highlight + section headers ----
 .research-highlight {
   display: flex; gap: 1.8rem; align-items: center;
