@@ -29,10 +29,10 @@ latest_posts:
   </div>
 </div>
 
-<h2 class="home-section"><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
+<h2 class="home-section"><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></h2>
 {% include news.liquid limit=true %}
 
-<h2 class="home-section">about BISPL</h2>
+<h2 class="home-section">About BISPL</h2>
 
 **BISPL @ KAIST** is a group of researchers dedicated to investigating the beauty of
 **bio-imaging, signal processing, and machine learning** for applications across healthcare,

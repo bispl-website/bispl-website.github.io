@@ -171,7 +171,7 @@ code, pre, kbd, tt, samp, .highlight, .highlighter-rouge {
 .research-highlight .rh-more { font-weight: 600; font-size: .9rem; }
 h2.home-section {
   font-size: 1.5rem; font-weight: 700; color: var(--global-theme-color);
-  margin: 2rem 0 .8rem; text-transform: lowercase;
+  margin: 2rem 0 .8rem; text-transform: none;
 }
 // Home news list: halve the row spacing (MDBootstrap default is .6rem top/bottom)
 .news .table td, .news .table th {
