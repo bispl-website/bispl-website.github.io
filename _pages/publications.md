@@ -11,6 +11,8 @@ nav_order: 4
 
 <!-- Bibsearch Feature -->
 
+(**C**: peer-reviewed conference, **J**: peer-reviewed journal, **B**: book)
+
 {% include bib_search.liquid %}
 
 <div class="publications">
