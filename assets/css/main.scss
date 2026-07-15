@@ -95,22 +95,38 @@ code, pre, kbd, tt, samp, .highlight, .highlighter-rouge {
 }
 
 // ============================================================
-//   ▼▼▼  페이지 SUBTITLE 스타일 — 여기 값만 바꾸세요  ▼▼▼
-//   .post-description : 각 페이지 제목 아래의 설명글(subtitle)
-//   .desc             : 홈(About) 페이지의 subtitle
+//   ▼▼▼  제목 + SUBTITLE 스타일 — 여기 값만 바꾸세요  ▼▼▼
 //   수정 후 커밋하면 사이트가 자동으로 다시 빌드됩니다 (3~6분).
 // ============================================================
-.post-description,
+
+// (1) 페이지 제목  (홈의 "BISPL @ KAIST", 그리고 각 페이지 제목 공통)
+.post-title {
+  font-size: 2rem;          // 글자 크기 (예: 1.8rem / 2.5rem / 3rem)
+  font-weight: 700;         // 굵기 (400=보통, 600=세미볼드, 700=굵게)
+  color: var(--global-theme-color);   // 글자 색 (예: #1257a0 로 바꿀 수 있음)
+  line-height: 1.2;         // 줄간격
+  letter-spacing: 0;        // 자간
+}
+
+// (2) 홈(About) 페이지의 subtitle
 .desc {
-  font-size: 1rem;          // 글자 크기 (예: 0.9rem / 1.1rem / 1.25rem)
-  font-weight: 400;         // 굵기 (400=보통, 600=세미볼드, 700=굵게)
+  font-size: 1rem;          // 글자 크기
+  font-weight: 400;         // 굵기
   font-style: normal;       // normal 또는 italic
   color: var(--global-text-color-light);   // 글자 색
+  line-height: 1.5;         // 줄간격
   letter-spacing: 0;        // 자간
-  // font-family: "Roboto Mono", monospace; // ← 폰트 바꾸려면 앞의 //를 지우세요
+}
+
+// (3) 나머지 페이지들의 subtitle(제목 아래 설명글)
+.post-description {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--global-text-color-light);
+  line-height: 1.5;
 }
 // ============================================================
-//   ▲▲▲  여기까지 SUBTITLE 편집 구역  ▲▲▲
+//   ▲▲▲  여기까지 제목 + SUBTITLE 편집 구역  ▲▲▲
 // ============================================================
 
 // ---- Professor CV (embedded PDF) ----
