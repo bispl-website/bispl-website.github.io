@@ -1,6 +1,8 @@
 ---
 layout: page
 permalink: /professor/
+title: professor
+description: Prof. Jong Chul Ye — KAIST Endowed Chair Professor, IEEE Fellow.
 nav: true
 nav_order: 5
 ---
