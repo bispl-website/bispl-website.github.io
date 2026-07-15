@@ -122,8 +122,13 @@ code, pre, kbd, tt, samp, .highlight, .highlighter-rouge {
 }
 .cv-download:hover { opacity: .9; text-decoration: none; }
 .cv-embed {
-  width: 100%; height: 88vh; min-height: 600px;
+  width: 100%;
+  aspect-ratio: 1 / 1.414;   /* A4 portrait → the whole CV page shows without inner scroll */
+  min-height: 1000px;
   border: 1px solid var(--global-divider-color); border-radius: 8px;
+}
+@media (max-width: 700px) {
+  .cv-embed { aspect-ratio: auto; height: 90vh; min-height: 560px; }
 }
 
 // ---- Nav tabs: bold + capitalized first letters ----
