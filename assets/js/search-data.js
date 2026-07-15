@@ -18,10 +18,17 @@ ninja.data = [{
           },
         },{id: "nav-people",
           title: "people",
-          description: "Current members and alumni of BISPL @ KAIST.",
+          description: "Current members of BISPL @ KAIST.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/people/";
+          },
+        },{id: "nav-alumni",
+          title: "alumni",
+          description: "Former BISPL members now leading in academia, industry, and medicine worldwide.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/alumni/";
           },
         },{id: "nav-publications",
           title: "Publications",
