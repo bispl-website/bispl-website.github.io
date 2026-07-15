@@ -1,4 +1,4 @@
-# Auto-generated once; edit freely — GitHub rebuilds the site on save.
+# BISPL annual awards. Edit freely — GitHub rebuilds on save.
 - year: "2025"
   note: "The 2025 award ceremony was held on Dec. 30, 2025."
   winners:
@@ -8,6 +8,16 @@
       who: "Jemin Kim"
     - cat: "Best Master Student"
       who: "Bryan Sangwoo Kim"
+  photos:
+    - "assets/img/awards/img-4700.jpg"
+    - "assets/img/awards/20251230-211023.jpg"
+    - "assets/img/awards/20251230-190402.jpg"
+    - "assets/img/awards/img-1003.jpg"
+    - "assets/img/awards/img-1001.jpg"
+    - "assets/img/awards/img-0994.jpg"
+    - "assets/img/awards/20251230-202808.jpg"
+    - "assets/img/awards/20251230-200940.jpg"
+    - "assets/img/awards/20251230-190410.jpg"
 - year: "2024"
   note: "Held on Dec. 27, 2024."
   winners:
@@ -26,6 +36,25 @@
       who: "Gihyun Kwon"
     - cat: "Best Master Student"
       who: "Hyeonho Jeong"
+  photos:
+    - "assets/img/awards/kakaotalk-photo-2024-01-10-15-37-54-012.jpeg"
+    - "assets/img/awards/kakaotalk-photo-2024-01-10-15-37-52-008.jpeg"
+    - "assets/img/awards/kakaotalk-photo-2024-01-10-15-37-53-009.jpeg"
+    - "assets/img/awards/kakaotalk-photo-2024-01-10-15-37-57-016.jpeg"
+    - "assets/img/awards/kakaotalk-photo-2024-01-10-15-37-56-015.jpeg"
+    - "assets/img/awards/kakaotalk-photo-2024-01-10-15-37-56-014.jpeg"
+    - "assets/img/awards/kakaotalk-photo-2024-01-10-15-37-58-025.jpeg"
+    - "assets/img/awards/kakaotalk-photo-2024-01-10-15-37-58-024.jpeg"
+    - "assets/img/awards/kakaotalk-photo-2024-01-10-15-37-57-023.jpeg"
+    - "assets/img/awards/kakaotalk-photo-2024-01-10-15-37-57-022.jpeg"
+    - "assets/img/awards/kakaotalk-photo-2024-01-10-15-37-57-021.jpeg"
+    - "assets/img/awards/kakaotalk-photo-2024-01-10-15-37-57-020.jpeg"
+    - "assets/img/awards/kakaotalk-photo-2024-01-10-15-37-57-019.jpeg"
+    - "assets/img/awards/kakaotalk-photo-2024-01-10-15-37-57-018.jpeg"
+    - "assets/img/awards/kakaotalk-photo-2024-01-10-15-37-57-017.jpeg"
+    - "assets/img/awards/kakaotalk-photo-2024-01-10-15-37-50-004.jpeg"
+    - "assets/img/awards/kakaotalk-photo-2024-01-10-15-37-50-002.jpeg"
+    - "assets/img/awards/kakaotalk-photo-2024-01-10-15-37-50-001.jpeg"
 - year: "2022"
   note: "Held on Dec. 21, 2022 @ Sweet Beijing."
   winners:
@@ -35,6 +64,11 @@
       who: "Sangjoon Park"
     - cat: "Best Master Student"
       who: "Beomsu Kim"
+  photos:
+    - "assets/img/awards/1877739121.jpg"
+    - "assets/img/awards/472671696.jpg"
+    - "assets/img/awards/1437970840.jpg"
+    - "assets/img/awards/656507397.jpg"
 - year: "2021"
   note: "Held on Dec. 29, 2021."
   winners:
@@ -89,3 +123,12 @@
       who: "Juyoung Lee, Eunhee Kang, Jaejun Yoo"
     - cat: "Best Master Student"
       who: "Eun Ju Cha"
+  photos:
+    - "assets/img/awards/1.jpg"
+    - "assets/img/awards/2_1.jpg"
+    - "assets/img/awards/1_1.jpg"
+    - "assets/img/awards/2_2.jpg"
+    - "assets/img/awards/1_2.jpg"
+    - "assets/img/awards/2_3.jpg"
+    - "assets/img/awards/1_3.jpg"
+    - "assets/img/awards/2_4.jpg"
