@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-people",
           title: "People",
-          description: "Current members of BISPL @ KAIST.",
+          description: "Current members of BISPL @ KAIST AI.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/people/";
@@ -45,7 +45,7 @@ ninja.data = [{
             window.location.href = "/professor/";
           },
         },{id: "nav-hall-of-fame",
-          title: "hall of fame",
+          title: "Hall of Fame",
           description: "BISPL annual awards, recognizing outstanding research and service since 2013.",
           section: "Navigation",
           handler: () => {
