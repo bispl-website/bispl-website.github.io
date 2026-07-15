@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <strong>BioImaging, Signal Processing & machine Learning Lab</strong> · Kim Jaechul Graduate School of AI, KAIST
+subtitle: Latest Research Highlight
 
 selected_papers: false
 social: false
@@ -22,7 +22,6 @@ latest_posts:
     <img src="{{ hl.image | relative_url }}" alt="{{ hl.title }}">
   </a>
   <div class="rh-body">
-    <span class="rh-eyebrow">Latest Research Highlight</span>
     <h2 class="rh-title"><a href="{{ hl.url }}" target="_blank" rel="noopener">{{ hl.title }}</a></h2>
     <p class="rh-authors">{{ hl.authors }}</p>
     <a class="rh-more" href="{{ hl.url }}" target="_blank" rel="noopener">See more &rarr;</a>
