@@ -25,6 +25,16 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-outline.scss"
 ;
 
+// ---- Theme accent color: blue instead of al-folio's magenta ----
+:root {
+  --global-theme-color: #1257a0;   // 파란색 (제목·섹션헤더·링크 등)
+  --global-hover-color: #1257a0;
+}
+html[data-theme="dark"] {
+  --global-theme-color: #6aa9e9;   // 다크모드용 밝은 파랑
+  --global-hover-color: #6aa9e9;
+}
+
 // ---- BISPL typography: Inter for title/subtitle/body/headings, Roboto Mono for code ----
 // (reference: https://youngsuk0723.github.io/)
 $bispl-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
