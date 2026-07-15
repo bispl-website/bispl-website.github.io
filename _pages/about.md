@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-headline: 
+headline: Latest Research Highlight
 subtitle:
 
 selected_papers: false
