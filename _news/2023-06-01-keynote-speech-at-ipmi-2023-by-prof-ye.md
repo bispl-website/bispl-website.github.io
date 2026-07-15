@@ -5,4 +5,12 @@ date: 2023-06-01 12:00:00
 inline: false
 ---
 
-Prof. Ye gave a keynote speech at IPMI 2023 on *"Diffusion Models for Inverse Problems in Medical Imaging".* The presentation files can be download here.
+Prof. Ye gave a keynote speech at IPMI 2023 on "Diffusion Models for Inverse Problems in Medical Imaging". The presentation files can be download here.
+
+**ipmi2023.pdf**
+
+File Size: 21643 kb
+
+File Type: pdf
+
+Download File

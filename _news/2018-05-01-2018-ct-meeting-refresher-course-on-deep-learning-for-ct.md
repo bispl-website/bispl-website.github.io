@@ -6,3 +6,11 @@ inline: false
 ---
 
 The refresher course presentation material **"Deep Learning for CT Reconstruction"** can be downloaded from the following link.
+
+**ct_meeting_final_jcy.pdf**
+
+File Size: 42507 kb
+
+File Type: pdf
+
+Download File
