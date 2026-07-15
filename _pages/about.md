@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-headline: BISPL's Latest Research Highlight
+headline: 
 subtitle:
 
 selected_papers: false
