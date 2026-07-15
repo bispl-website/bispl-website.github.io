@@ -5,7 +5,7 @@ permalink: /
 headline: Latest Research Highlight
 subtitle:
 
-selected_papers: false
+selected_papers: true
 social: false
 
 announcements:
