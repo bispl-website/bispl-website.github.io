@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/alumni/";
           },
+        },{id: "nav-publications",
+          title: "Publications",
+          description: "Publications by BISPL @ KAIST AI, in reverse chronological order",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
         },{id: "nav-professor",
           title: "Professor",
           description: "",
