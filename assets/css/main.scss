@@ -111,9 +111,9 @@ code, pre, kbd, tt, samp, .highlight, .highlighter-rouge {
 // (2) 홈(About) 페이지의 subtitle
 .desc {
   font-size: 1rem;          // 글자 크기
-  font-weight: 400;         // 굵기
+  font-weight: 700;         // 굵기 (700=Bold)
   font-style: normal;       // normal 또는 italic
-  color: var(--global-text-color-light);   // 글자 색
+  color: var(--global-text-color);   // 글자 색 (검정; 다크모드에선 밝게)
   line-height: 1.5;         // 줄간격
   letter-spacing: 0;        // 자간
 }
@@ -149,7 +149,7 @@ code, pre, kbd, tt, samp, .highlight, .highlighter-rouge {
 
 // ---- Nav tabs: bold + capitalized first letters ----
 .navbar-nav .nav-item a.nav-link {
-  font-weight: 700 !important;
+  font-weight: 400 !important;
   text-transform: capitalize;
   letter-spacing: .01em;
 }

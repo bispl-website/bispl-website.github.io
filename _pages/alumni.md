@@ -4,7 +4,7 @@ permalink: /alumni/
 title: Alumni
 description: Former BISPL members now leading in academia, industry, and medicine worldwide.
 nav: true
-nav_order: 3
+nav_order: 6
 ---
 
 <style>
