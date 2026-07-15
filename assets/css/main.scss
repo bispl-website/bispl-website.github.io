@@ -94,6 +94,25 @@ code, pre, kbd, tt, samp, .highlight, .highlighter-rouge {
   opacity: 0.45;
 }
 
+// ============================================================
+//   ▼▼▼  페이지 SUBTITLE 스타일 — 여기 값만 바꾸세요  ▼▼▼
+//   .post-description : 각 페이지 제목 아래의 설명글(subtitle)
+//   .desc             : 홈(About) 페이지의 subtitle
+//   수정 후 커밋하면 사이트가 자동으로 다시 빌드됩니다 (3~6분).
+// ============================================================
+.post-description,
+.desc {
+  font-size: 1rem;          // 글자 크기 (예: 0.9rem / 1.1rem / 1.25rem)
+  font-weight: 400;         // 굵기 (400=보통, 600=세미볼드, 700=굵게)
+  font-style: normal;       // normal 또는 italic
+  color: var(--global-text-color-light);   // 글자 색
+  letter-spacing: 0;        // 자간
+  // font-family: "Roboto Mono", monospace; // ← 폰트 바꾸려면 앞의 //를 지우세요
+}
+// ============================================================
+//   ▲▲▲  여기까지 SUBTITLE 편집 구역  ▲▲▲
+// ============================================================
+
 // ---- Nav tabs: bold + capitalized first letters ----
 .navbar-nav .nav-item a.nav-link {
   font-weight: 700 !important;
