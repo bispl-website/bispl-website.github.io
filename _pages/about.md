@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: Latest Research Highlight
+headline: Latest Research Highlight
+subtitle:
 
 selected_papers: false
 social: false
