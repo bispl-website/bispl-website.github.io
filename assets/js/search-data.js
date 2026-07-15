@@ -10,14 +10,14 @@ ninja.data = [{
       window.location.href = "/";
     },
   },{id: "nav-news",
-          title: "news",
+          title: "News",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/news/";
           },
         },{id: "nav-people",
-          title: "people",
+          title: "People",
           description: "Current members of BISPL @ KAIST.",
           section: "Navigation",
           handler: () => {
