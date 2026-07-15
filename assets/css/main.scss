@@ -49,3 +49,54 @@ h1, h2, h3, .post-title, .site-heading {
 code, pre, kbd, tt, samp, .highlight, .highlighter-rouge {
   font-family: $bispl-mono !important;
 }
+
+// ---- Publications: [C##]/[J##] serial badges + year bars (ref: alinlab.kaist.ac.kr) ----
+.pub-num {
+  font-family: $bispl-mono !important;
+  font-size: 0.72rem;
+  font-weight: 500;
+  padding: 0.05rem 0.4rem;
+  border-radius: 5px;
+  margin-right: 0.2rem;
+  white-space: nowrap;
+  background: rgba(0, 0, 0, 0.06);
+  color: var(--global-text-color-light);
+}
+.pub-num-C { background: rgba(18, 87, 160, 0.13); color: #1257a0; }
+.pub-num-J { background: rgba(15, 143, 127, 0.15); color: #0d8f7f; }
+.pub-num-B { background: rgba(138, 79, 192, 0.15); color: #8a4fc0; }
+
+// Year header rendered as a section bar
+.publications h2.bibliography {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.55rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--global-theme-color);
+  margin: 2.2rem 0 1.1rem;
+}
+.publications h2.bibliography::before {
+  content: "";
+  width: 5px;
+  height: 1.3rem;
+  border-radius: 3px;
+  background: var(--global-theme-color);
+  display: inline-block;
+}
+.publications h2.bibliography::after {
+  content: "";
+  flex: 1;
+  height: 2px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, var(--global-theme-color) 0%, var(--global-divider-color) 90%);
+  opacity: 0.45;
+}
+
+@media (prefers-color-scheme: dark) {
+  .pub-num { background: rgba(255, 255, 255, 0.09); }
+  .pub-num-C { background: rgba(90, 160, 255, 0.16); color: #8fc0ff; }
+  .pub-num-J { background: rgba(60, 200, 175, 0.16); color: #5fe0c8; }
+  .pub-num-B { background: rgba(190, 130, 240, 0.18); color: #cfa5ff; }
+}
