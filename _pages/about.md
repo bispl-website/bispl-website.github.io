@@ -5,7 +5,7 @@ permalink: /
 subtitle: <strong>BioImaging, Signal Processing & machine Learning Lab</strong> · Kim Jaechul Graduate School of AI, KAIST
 
 selected_papers: false
-social: true
+social: false
 
 announcements:
   enabled: false   # rendered manually below so we control the page order
