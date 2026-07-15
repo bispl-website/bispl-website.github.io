@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: Latest Research Highlight
 permalink: /
 headline: 
 subtitle:
