@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-headline: Latest Research Highlight
+headline: BISPL's Latest Research Highlight
 subtitle:
 
 selected_papers: false
@@ -34,8 +34,8 @@ latest_posts:
 
 <h2 class="home-section">About BISPL</h2>
 
-**BISPL @ KAIST** is a group of researchers dedicated to investigating the beauty of
-**bio-imaging, signal processing, and machine learning** for applications across healthcare,
+**BISPL @ KAIST AI** is a group of researchers dedicated to investigating the beauty of
+**bio-imaging, signal processing, and machine learning (BISPL) ** for applications across healthcare,
 computer vision, and scientific discovery — led by [Prof. Jong Chul Ye](/professor/), IEEE Fellow.
 
 Our research is primarily focused on signal processing and machine learning for high-resolution,
