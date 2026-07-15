@@ -173,6 +173,11 @@ h2.home-section {
   font-size: 1.5rem; font-weight: 700; color: var(--global-theme-color);
   margin: 2rem 0 .8rem; text-transform: lowercase;
 }
+// Home news list: halve the row spacing (MDBootstrap default is .6rem top/bottom)
+.news .table td, .news .table th {
+  padding-top: 0.3rem !important;
+  padding-bottom: 0.3rem !important;
+}
 @media (max-width: 600px) {
   .research-highlight { flex-direction: column; align-items: stretch; }
   .research-highlight .rh-img { flex: none; max-width: 100%; }
