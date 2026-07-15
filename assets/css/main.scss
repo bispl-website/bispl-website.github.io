@@ -157,6 +157,11 @@ code, pre, kbd, tt, samp, .highlight, .highlighter-rouge {
   .cv-embed { aspect-ratio: auto; height: 90vh; min-height: 560px; }
 }
 
+// ---- KAIST AI logo in the navbar (left of the tabs) ----
+.navbar-brand { padding-top: 0; padding-bottom: 0; margin-right: 1rem; }
+.navbar-logo { height: 30px; width: auto; display: block; }
+@media (max-width: 575px) { .navbar-logo { height: 26px; } }
+
 // ---- Nav tabs: bold + capitalized first letters ----
 .navbar-nav .nav-item a.nav-link {
   font-weight: 400 !important;
