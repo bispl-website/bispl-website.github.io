@@ -37,9 +37,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-professor",
-          title: "professor",
-          description: "Prof. Jong Chul Ye — KAIST Endowed Chair Professor, IEEE Fellow.",
+        },{id: "nav-",
+          title: "",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/professor/";
