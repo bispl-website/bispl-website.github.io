@@ -16,19 +16,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/news/";
           },
+        },{id: "nav-professor",
+          title: "Professor",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/professor/";
+          },
         },{id: "nav-people",
           title: "People",
           description: "Current members of BISPL @ KAIST AI.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/people/";
-          },
-        },{id: "nav-alumni",
-          title: "Alumni",
-          description: "Former BISPL members now leading in academia, industry, and medicine worldwide.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/alumni/";
           },
         },{id: "nav-publications",
           title: "Publications",
@@ -37,19 +37,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-professor",
-          title: "Professor",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/professor/";
-          },
         },{id: "nav-hall-of-fame",
           title: "Hall of Fame",
           description: "BISPL annual awards, recognizing outstanding research and service since 2013.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/awards/";
+          },
+        },{id: "nav-alumni",
+          title: "Alumni",
+          description: "Former BISPL members now leading in academia, industry, and medicine worldwide.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/alumni/";
           },
         },{id: "news-5-ismrm-2-ohbm-4-isbi-papers-have-been-accepted",
           title: '5 ISMRM, 2 OHBM, 4 ISBI papers have been accepted',
