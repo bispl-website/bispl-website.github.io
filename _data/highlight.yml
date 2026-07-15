@@ -1,0 +1,7 @@
+# Latest Research Highlight shown at the top of the home page.
+# To feature a different paper, just edit these fields (and drop a new image
+# into assets/img/highlight/).
+title: "FILT3R: Latent Space Adaptive Kalman Filter for Streaming 3D Reconstruction"
+authors: "Seonghyun Jin et al., ECCV 2026"
+url: "https://arxiv.org/abs/2603.18493"
+image: "assets/img/highlight/filt3r.png"

@@ -4,29 +4,37 @@ title: about
 permalink: /
 subtitle: <strong>BioImaging, Signal Processing & machine Learning Lab</strong> · Kim Jaechul Graduate School of AI, KAIST
 
-profile:
-  align: right
-  image: prof.png
-  image_circular: false
-  more_info: >
-    <p><strong>Prof. Jong Chul Ye</strong>, IEEE Fellow</p>
-
-
-selected_papers: true
+selected_papers: false
 social: true
 
 announcements:
-  enabled: true
+  enabled: false   # rendered manually below so we control the page order
   scrollable: true
   limit: 5
 
 latest_posts:
   enabled: false
-  scrollable: true
-  limit: 3
 ---
 
-**BISPL @ KAIST AI ** is a group of researchers dedicated to investigating the beauty of
+{% assign hl = site.data.highlight %}
+<div class="research-highlight">
+  <a class="rh-img" href="{{ hl.url }}" target="_blank" rel="noopener">
+    <img src="{{ hl.image | relative_url }}" alt="{{ hl.title }}">
+  </a>
+  <div class="rh-body">
+    <span class="rh-eyebrow">Latest Research Highlight</span>
+    <h2 class="rh-title"><a href="{{ hl.url }}" target="_blank" rel="noopener">{{ hl.title }}</a></h2>
+    <p class="rh-authors">{{ hl.authors }}</p>
+    <a class="rh-more" href="{{ hl.url }}" target="_blank" rel="noopener">See more &rarr;</a>
+  </div>
+</div>
+
+<h2 class="home-section"><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
+{% include news.liquid limit=true %}
+
+<h2 class="home-section">about BISPL</h2>
+
+**BISPL @ KAIST** is a group of researchers dedicated to investigating the beauty of
 **bio-imaging, signal processing, and machine learning** for applications across healthcare,
 computer vision, and scientific discovery — led by [Prof. Jong Chul Ye](/professor/), IEEE Fellow.
 
