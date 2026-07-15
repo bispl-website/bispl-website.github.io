@@ -1,6 +1,10 @@
 # Auto-generated once; edit freely — GitHub rebuilds the site on save.
 - category: "Academia"
   people:
+    - name: "Hyungjin Chung"
+      initials: "HC"
+      photo: "assets/img/people/al-hyungjin-chung.jpg"
+      detail: "PhD (2025. 2) --> EverEx, Inc. · Assistant Professor · Korea University"
     - name: "Yujin Oh"
       initials: "YO"
       photo: "assets/img/people/al-yujin-oh.jpg"
@@ -129,10 +133,6 @@
       detail: "MS (2020. 6) · PhD Student, DGIST · BS. Computer Science"
 - category: "Industry"
   people:
-    - name: "Hyungjin Chung"
-      initials: "HC"
-      photo: "assets/img/people/al-hyungjin-chung.jpg"
-      detail: "PhD (2025. 2) · EverEx, Inc."
     - name: "Junyoung Kim"
       initials: "JK"
       photo: "assets/img/people/al-junyoung-kim.jpg"
