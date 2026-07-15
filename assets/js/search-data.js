@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-people",
           title: "People",
-          description: "Current members of BISPL @ KAIST AI.",
+          description: "Current members of BISPL @ KAIST.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/people/";
