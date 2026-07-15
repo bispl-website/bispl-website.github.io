@@ -113,7 +113,7 @@ code, pre, kbd, tt, samp, .highlight, .highlighter-rouge {
 .post-title {
   font-size: 2rem;          // 글자 크기 (예: 1.8rem / 2.5rem / 3rem)
   font-weight: 700;         // 굵기 (400=보통, 600=세미볼드, 700=굵게)
-  color: var(--global-theme-color);   // 글자 색 (예: #1257a0 로 바꿀 수 있음)
+  color: #000000; // var(--global-theme-color);   // 글자 색 (예: #1257a0 로 바꿀 수 있음)
   line-height: 1.2;         // 줄간격
   letter-spacing: 0;        // 자간
 }
@@ -123,7 +123,7 @@ code, pre, kbd, tt, samp, .highlight, .highlighter-rouge {
   font-size: 1rem;          // 글자 크기
   font-weight: 700;         // 굵기 (700=Bold)
   font-style: normal;       // normal 또는 italic
-  color: var(--global-text-color);   // 글자 색 (검정; 다크모드에선 밝게)
+  color: #000000; // var(--global-text-color);   // 글자 색 (검정; 다크모드에선 밝게)
   line-height: 1.5;         // 줄간격
   letter-spacing: 0;        // 자간
 }
@@ -132,7 +132,7 @@ code, pre, kbd, tt, samp, .highlight, .highlighter-rouge {
 .post-description {
   font-size: 1rem;
   font-weight: 400;
-  color: var(--global-text-color-light);
+  color: #000000; // var(--global-text-color-light);
   line-height: 1.5;
 }
 // ============================================================
