@@ -96,15 +96,15 @@ code, pre, kbd, tt, samp, .highlight, .highlighter-rouge {
 
 // ---- Home: Latest Research Highlight + section headers ----
 .research-highlight {
-  display: flex; gap: 1.4rem; align-items: center;
+  display: flex; gap: 1.8rem; align-items: center;
   border: 1px solid var(--global-divider-color); border-radius: 12px;
-  padding: 1.1rem 1.3rem; margin: 0 0 1.6rem;
+  padding: 1.8rem 2rem; margin: 0 0 1.8rem; min-height: 320px;
   background: var(--global-card-bg-color, var(--global-bg-color));
 }
-.research-highlight .rh-img { flex: 0 0 42%; max-width: 42%; display: block; border-radius: 8px; overflow: hidden; }
+.research-highlight .rh-img { flex: 0 0 56%; max-width: 56%; display: block; border-radius: 8px; overflow: hidden; }
 .research-highlight .rh-img img { width: 100%; display: block; border-radius: 8px; }
-.research-highlight .rh-eyebrow { font-size: .72rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--global-theme-color); }
-.research-highlight .rh-title { font-size: 1.2rem; font-weight: 700; line-height: 1.3; margin: .35rem 0 .4rem; }
+.research-highlight .rh-eyebrow { font-size: .75rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--global-theme-color); }
+.research-highlight .rh-title { font-size: 1.4rem; font-weight: 700; line-height: 1.3; margin: .45rem 0 .55rem; }
 .research-highlight .rh-title a { color: var(--global-text-color); }
 .research-highlight .rh-title a:hover { color: var(--global-theme-color); }
 .research-highlight .rh-authors { color: var(--global-text-color-light); font-size: .9rem; margin: 0 0 .6rem; }
