@@ -157,15 +157,7 @@ code, pre, kbd, tt, samp, .highlight, .highlighter-rouge {
   .cv-embed { aspect-ratio: auto; height: 90vh; min-height: 560px; }
 }
 
-// ---- Navbar brand logo (serif "BISPL @KAIST AI") ----
-.navbar-brand.brand-logo {
-  font-family: "Times New Roman", Georgia, serif !important;   // 세리프체
-  color: var(--global-text-color) !important;                  // 검정
-  display: inline-flex; align-items: baseline;
-  margin-right: 1rem; padding: 0;
-}
-.brand-logo .brand-lg { font-size: 1.65rem; font-weight: 700; letter-spacing: .3px; }  // "BISPL" 크게 굵게
-.brand-logo .brand-sm { font-size: 1rem; font-weight: 400; letter-spacing: 1px; margin-left: .3rem; }  // "@KAIST AI" 작게
+// ---- Navbar brand text (BISPL @ KAIST AI) ----
 .navbar-brand.title { margin-right: 1rem; }
 
 // ---- Nav tabs: bold + capitalized first letters ----

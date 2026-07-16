@@ -11,10 +11,8 @@ contact_note: >
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   BISPL @ KAIST — BioImaging, Signal Processing & machine Learning laboratory, led by Prof. Jong Chul Ye. Generative models, LLMs, computer vision, and healthcare AI.
 footer_text: >
-  BISPL @ KAIST AI --
-  where imaging and machine learning applications inspire
-  new mathematical theories.
-  BISPL is a group at KAIST dedicated to machine learning and mathematical theory for healthcare, computer vision, and scientific discovery — from generative models and LLMs to robotics, medical imaging and inverse problems.
+  BISPL @ KAIST · Kim Jaechul Graduate School of AI.
+  Built with <a href="https://github.com/alshedivat/al-folio">al-folio</a> and <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: BISPL, KAIST, Jong Chul Ye, machine learning, generative models, medical imaging, diffusion models, computer vision
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🔬 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
