@@ -486,8 +486,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-06-01-congratulations-five-papers-accepted-to-eccv-2026/";
-            },},{id: "news-academic-internship",
-          title: 'Academic Internship',
+            },},{id: "news-bispl-students-awarded-funded-research-internships-at-prestigious-university-research-institutes",
+          title: 'BISPL Students Awarded Funded Research Internships at Prestigious University Research Institutes',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-07-01-academic-internship/";
