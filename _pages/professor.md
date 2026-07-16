@@ -9,9 +9,13 @@ nav_order: 2
 
 <img src="{{ 'assets/img/prof.png' | relative_url }}" alt="Prof. Jong Chul Ye" style="float: right; width: 210px; max-width: 40%; border-radius: 10px; margin: 0 0 1rem 1.6rem; box-shadow: 0 2px 12px rgba(0,0,0,.18);">
 
-## Jong Chul Ye
+## Jong Chul Ye, Ph.D.
 
 **Chung Moon Soul Mirae Chair · KAIST Endowed Chair Professor**
+
+**Fellow of Chung Moon Soul Mirae Chair · KAIST Endowed Chair Professor**
+
+**Fellow,  The Korean Academy of Science and Technology · National Academy of Medicine of Korea**
 
 **IEEE Fellow** — *“for contributions to signal processing and
 machine learning for bio-medical imaging.”*
