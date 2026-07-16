@@ -168,29 +168,31 @@ code, pre, kbd, tt, samp, .highlight, .highlighter-rouge {
 }
 
 // ---- Home: Latest Research Highlight + section headers ----
+body { overflow-x: hidden; }   /* full-bleed 배너가 가로 스크롤 만들지 않도록 */
 .research-highlight {
   display: flex;
   align-items: stretch;                          /* 박스와 이미지 같은 높이 */
   overflow: hidden;
-  border-radius: 4px;
-  margin: 0 0 2rem;
-  box-shadow: 0 4px 20px rgba(16, 42, 74, .1);
+  width: 100vw;                                  /* 화면 전체 폭 (full-bleed) */
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  margin-bottom: 2.5rem;
 }
 .research-highlight .rh-body {
-  flex: 0 0 40%;
-  background: #2a3342;                            /* 어두운 네이비 박스 */
+  flex: 0 0 38%;
+  background: #2a3342;                            /* 어두운 네이비 박스 (색상 유지) */
   color: #fff;
-  padding: 2.2rem 2.2rem 2rem;
-  display: flex; flex-direction: column;
+  padding: 2.6rem clamp(1.6rem, 5vw, 4.5rem);
+  display: flex; flex-direction: column; justify-content: center;   /* 세로 가운데 */
 }
 .research-highlight .rh-title {
   font-family: Georgia, "Times New Roman", serif !important;
-  font-size: 1.85rem; font-weight: 700; line-height: 1.16; margin: 0 0 1rem; letter-spacing: 0;
+  font-size: clamp(1.6rem, 2.3vw, 2.3rem); font-weight: 700; line-height: 1.16; margin: 0 0 1rem; letter-spacing: 0;
 }
 .research-highlight .rh-title a { color: #fff; text-decoration: underline; text-underline-offset: 3px; }
 .research-highlight .rh-title a:hover { color: #fff; }
-.research-highlight .rh-authors { color: rgba(255, 255, 255, .78); font-size: .95rem; margin: 0; line-height: 1.5; }
-.research-highlight .rh-img { flex: 1 1 60%; display: block; overflow: hidden; min-height: 300px; }
+.research-highlight .rh-authors { color: rgba(255, 255, 255, .8); font-size: 1rem; margin: 0; line-height: 1.5; }
+.research-highlight .rh-img { flex: 1 1 62%; display: block; overflow: hidden; min-height: 400px; }
 .research-highlight .rh-img img { width: 100%; height: 100%; object-fit: cover; object-position: center; display: block; }
 h2.home-section {
   font-size: 1.5rem; font-weight: 700; color: var(--global-theme-color);
@@ -201,9 +203,9 @@ h2.home-section {
   padding-top: 0.3rem !important;
   padding-bottom: 0.3rem !important;
 }
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .research-highlight { flex-direction: column; }
-  .research-highlight .rh-body { flex-basis: auto; padding: 1.5rem 1.4rem; }
+  .research-highlight .rh-body { flex-basis: auto; padding: 1.6rem 1.5rem; }
   .research-highlight .rh-title { font-size: 1.45rem; }
   .research-highlight .rh-img { min-height: 0; }
   .research-highlight .rh-img img { height: auto; }
