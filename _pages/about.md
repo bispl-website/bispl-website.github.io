@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-headline: Latest Research Highlight
+hide_header: true
 subtitle:
 
 selected_papers: true
@@ -23,9 +23,10 @@ latest_posts:
     <img src="{{ hl.image | relative_url }}" alt="{{ hl.title }}">
   </a>
   <div class="rh-body">
+    <span class="rh-tag">Latest Research Highlight</span>
     <h2 class="rh-title"><a href="{{ hl.url }}" target="_blank" rel="noopener">{{ hl.title }}</a></h2>
     <p class="rh-authors">{{ hl.authors }}</p>
-    <a class="rh-more" href="{{ hl.url }}" target="_blank" rel="noopener">See more &rarr;</a>
+    <a class="rh-more" href="{{ hl.url }}" target="_blank" rel="noopener">Read more &rarr;</a>
   </div>
 </div>
 
