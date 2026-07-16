@@ -18,11 +18,6 @@ nav_order: 2
 **IEEE Fellow** — *“for contributions to signal processing and
 machine learning for bio-medical imaging.”*
 
-Address: 
-
-Kim Jaechul Graduate School of AI, KAIST,
-108  Taebong-ro, Seocho-gu,  Seoul,  06764
-
 [Google Scholar](https://scholar.google.com/citations?user=HNMjoNEAAAAJ)
 
 ---
