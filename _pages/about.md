@@ -34,20 +34,13 @@ latest_posts:
 
 <h2 class="home-section">About BISPL</h2>
 
-**BISPL @ KAIST AI** is a group of researchers dedicated to investigating the beauty of
-**bio-imaging, signal processing, and machine learning (BISPL) ** for applications across healthcare,
-computer vision, and scientific discovery — led by [Prof. Jong Chul Ye](/professor/), IEEE Fellow.
+**BISPL @ KAIST AI**, led by Pled by [Prof. Jong Chul Ye](/professor/), IEEE Fellow, explores the mathematical beauty and fundamental principles underlying modern AI.
+We study not only how AI works, but why it works—developing new theories and algorithms inspired by real-world problems in imaging, robotics, healthcare, and scientific discovery.
+We believe that **actual real-world applications are a source of endless inspiration for new mathematical theories**, and we are eager to solve both specific applications
+and application-inspired fundamental theoretical problems. 
 
-Our research is primarily focused on signal processing and machine learning for high-resolution,
-high-sensitivity image reconstruction from real-world biomedical imaging systems. These problems
-lead to investigations of fundamental questions across physics, mathematics, signal processing,
-biology, and medicine. We believe that **actual imaging applications are a source of endless
-inspiration for new mathematical theories**, and we are eager to solve both specific applications
-and application-inspired fundamental theoretical problems.
+Our current research spans **Theory & RL for Diffusion/Flow Models, LLMs & Agentic AI, Vision-Language-Action Models, World Models, Computer Vision, AI for Science & Healthcare, and Medical Imaging**.
+Building on deep expertise in **bio-imaging, signal processing, inverse problems, and machine learning**, we connect rigorous theory with transformative real-world applications.
 
-Current directions include **generative models** (diffusion & flow), **large language models**
-(reasoning, diffusion LMs, clinical LLMs), **computer vision** (text-to-image/video, 3D/4D),
-**healthcare AI**, and **AI for science** — building on a long history of work in computational
-imaging (MRI, CT/PET, microscopy) and inverse problems.
 
 Explore our [people](/people/), [publications](/publications/), and [latest news](/news/).
