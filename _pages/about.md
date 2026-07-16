@@ -34,7 +34,7 @@ latest_posts:
 
 <h2 class="home-section">About BISPL</h2>
 
-**BISPL @ KAIST AI**, led by Pled by [Prof. Jong Chul Ye](/professor/), IEEE Fellow, explores the mathematical beauty and fundamental principles underlying modern AI.
+**BISPL @ KAIST AI**, led by led by [Prof. Jong Chul Ye](/professor/), IEEE Fellow, explores the mathematical beauty and fundamental principles underlying modern AI.
 We study not only how AI works, but why it works—developing new theories and algorithms inspired by real-world problems.
 We believe that **actual real-world applications are a source of endless inspiration for new mathematical theories**, and we are eager to solve both specific applications
 and application-inspired fundamental theoretical problems. 
