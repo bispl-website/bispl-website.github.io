@@ -12,7 +12,6 @@ nav_order: 2
 ## Jong Chul Ye, Ph.D.
 
 **Chung Moon Soul Mirae Chair · KAIST Endowed Chair Professor**
-
 **Fellow,  The Korean Academy of Science and Technology · National Academy of Medicine of Korea**
 
 **IEEE Fellow** — *“for contributions to signal processing and
