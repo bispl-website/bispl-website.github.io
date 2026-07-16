@@ -19,15 +19,13 @@ latest_posts:
 
 {% assign hl = site.data.highlight %}
 <div class="research-highlight">
+  <div class="rh-body">
+    <h2 class="rh-title"><a href="{{ hl.url }}" target="_blank" rel="noopener">{{ hl.title }}</a></h2>
+    <p class="rh-authors">{{ hl.authors }}</p>
+  </div>
   <a class="rh-img" href="{{ hl.url }}" target="_blank" rel="noopener">
     <img src="{{ hl.image | relative_url }}" alt="{{ hl.title }}">
   </a>
-  <div class="rh-body">
-    <span class="rh-tag">Latest Research Highlight</span>
-    <h2 class="rh-title"><a href="{{ hl.url }}" target="_blank" rel="noopener">{{ hl.title }}</a></h2>
-    <p class="rh-authors">{{ hl.authors }}</p>
-    <a class="rh-more" href="{{ hl.url }}" target="_blank" rel="noopener">Read more &rarr;</a>
-  </div>
 </div>
 
 <h2 class="home-section"><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></h2>
