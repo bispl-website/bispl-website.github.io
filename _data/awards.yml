@@ -87,6 +87,9 @@
       who: "Eunju Cha"
     - cat: "Best Master Student"
       who: "Gyutaek Oh"
+  photos:
+    - "assets/img/awards/2020-award-1.png"
+    - "assets/img/awards/2020-award-2.png"
 - year: "2019"
   note: "Held on Dec. 23, 2019."
   winners:
