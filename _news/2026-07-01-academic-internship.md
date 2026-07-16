@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BISPL Students Awarded Funded Research Internships at Prestigious University Research Institutes"
+title: "BISPL Students Awarded Funded Research Internships at Prestigious Research Institutes"
 date: 2026-07-01 12:00:00
 inline: false
 ---
