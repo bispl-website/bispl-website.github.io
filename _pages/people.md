@@ -14,7 +14,7 @@ nav_order: 3
 .person .ph-init { display: grid; place-items: center; font-weight: 700; font-size: 1.5rem; color: #fff; background: linear-gradient(135deg, var(--global-theme-color), #12a3a3); }
 .person .nm { font-weight: 600; line-height: 1.2; }
 .person .ed { font-size: .72rem; color: var(--global-text-color-light); margin-top: .2rem; }
-.people-h { border-bottom: 1px solid var(--global-divider-color); padding-bottom: .3rem; margin: 1.8rem 0 1.1rem; }
+.people-h { border-bottom: 1px solid var(--global-divider-color); padding-bottom: .3rem; margin: 1.8rem 0 1.1rem; font-size: 1.05rem; font-weight: 700; }
 </style>
 
 {% for g in site.data.members %}

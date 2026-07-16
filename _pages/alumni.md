@@ -14,7 +14,7 @@ nav_order: 6
 .alum .ph-init { display: grid; place-items: center; font-weight: 700; color: #fff; font-size: .95rem; background: linear-gradient(135deg, var(--global-theme-color), #12a3a3); }
 .alum .nm { font-weight: 600; font-size: .9rem; line-height: 1.15; }
 .alum .ed { font-size: .72rem; color: var(--global-text-color-light); }
-.alum-h { border-bottom: 1px solid var(--global-divider-color); padding-bottom: .3rem; margin: 1.8rem 0 1.1rem; }
+.alum-h { border-bottom: 1px solid var(--global-divider-color); padding-bottom: .3rem; margin: 1.8rem 0 1.1rem; font-size: 1.05rem; font-weight: 700; }
 </style>
 
 {% for c in site.data.alumni %}
