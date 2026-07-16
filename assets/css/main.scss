@@ -168,6 +168,22 @@ code, pre, kbd, tt, samp, .highlight, .highlighter-rouge {
 }
 
 // ============================================================
+//   ▼▼▼  FOOTER 스타일 — 여기 값만 바꾸세요  ▼▼▼
+//   (footer "문구/내용"은 _config.yml 의 footer_text 에서 수정)
+// ============================================================
+footer.fixed-bottom, footer.sticky-bottom {
+  font-size: 0.8rem;                  // footer 글자 크기 (예: 0.7rem / 0.9rem / 1rem)
+  // font-family: "Roboto Mono", monospace;  // ← 폰트 바꾸려면 앞의 //를 지우세요
+}
+footer.fixed-bottom .container, footer.sticky-bottom .container {
+  color: var(--global-footer-text-color);  // footer 글자색 (예: #888888 / #000000)
+  // text-align: left;                // 가운데(center)→왼쪽(left)으로 바꾸려면 // 지우기
+}
+// ============================================================
+//   ▲▲▲  여기까지 FOOTER 편집 구역  ▲▲▲
+// ============================================================
+
+// ============================================================
 //   ▼▼▼  홈 하이라이트 배너 — 여기 값만 바꾸세요  ▼▼▼
 //   (제목·저자·그림 "내용"은 _data/highlight.yml 에서 수정)
 //   수정 후 커밋하면 3~6분 뒤 자동 반영됩니다.
