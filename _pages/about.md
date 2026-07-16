@@ -20,6 +20,7 @@ latest_posts:
 {% assign hl = site.data.highlight %}
 <div class="research-highlight">
   <div class="rh-body">
+    <span class="rh-tag">Latest Research Highlight</span>
     <h2 class="rh-title"><a href="{{ hl.url }}" target="_blank" rel="noopener">{{ hl.title }}</a></h2>
     <p class="rh-authors">{{ hl.authors }}</p>
   </div>
