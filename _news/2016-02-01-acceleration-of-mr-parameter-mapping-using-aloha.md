@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Acceleration of MR Parameter Mapping Using ALOHA"
-date: 2016-02-01 12:00:00
+date: 2016-02-20 12:00:00
 inline: false
 ---
 
