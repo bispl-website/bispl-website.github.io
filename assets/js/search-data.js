@@ -56,16 +56,16 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2014-04-01-5-ismrm-papers-accepted/";
-            },},{id: "news-our-2004-mission-statements",
-          title: 'Our 2004 Mission Statements',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/2014-04-01-bispl/";
             },},{id: "news-two-ct-meeting-papers-have-been-accepted",
           title: 'Two CT meeting papers have been accepted',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2014-04-01-ct-meeting-paper-has-been-accepted/";
+            },},{id: "news-our-2004-mission-statements",
+          title: 'Our 2004 Mission Statements',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2014-04-01-bispl/";
             },},{id: "news-two-ohbm-posters-on-persistence-landscape-for-brain-connectivity-analysis",
           title: 'Two OHBM Posters on Persistence Landscape for Brain Connectivity Analysis',
           description: "",
