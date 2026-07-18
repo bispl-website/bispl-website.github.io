@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Congratulations to BISPL's New Tenure-Track Faculty"
-date: 2026-02-01 12:00:00
+date: 2026-02-20 12:00:00
 inline: false
 ---
 
