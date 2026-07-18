@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Samsung Human Tech Award"
-date: 2015-02-01 12:00:00
+date: 2015-02-09 12:00:00
 inline: false
 ---
 
