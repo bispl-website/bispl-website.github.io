@@ -51,12 +51,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/alumni/";
           },
-        },{id: "news-5-ismrm-2-ohbm-4-isbi-papers-have-been-accepted",
-          title: '5 ISMRM, 2 OHBM, 4 ISBI papers have been accepted',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/2014-04-01-5-ismrm-papers-accepted/";
-            },},{id: "news-two-ct-meeting-papers-have-been-accepted",
+        },{id: "news-two-ct-meeting-papers-have-been-accepted",
           title: 'Two CT meeting papers have been accepted',
           description: "",
           section: "News",handler: () => {
@@ -66,6 +61,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2014-04-01-bispl/";
+            },},{id: "news-5-ismrm-2-ohbm-4-isbi-papers-have-been-accepted",
+          title: '5 ISMRM, 2 OHBM, 4 ISBI papers have been accepted',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2014-04-01-5-ismrm-papers-accepted/";
             },},{id: "news-two-ohbm-posters-on-persistence-landscape-for-brain-connectivity-analysis",
           title: 'Two OHBM Posters on Persistence Landscape for Brain Connectivity Analysis',
           description: "",
