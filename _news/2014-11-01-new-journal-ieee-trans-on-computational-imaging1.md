@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "New Journal \"IEEE Trans. on Computational Imaging\""
-date: 2014-11-01 12:00:00
+date: 2014-11-13 12:00:00
 inline: false
 ---
 
