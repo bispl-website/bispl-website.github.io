@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Deep Learning ROI tomography using Differentiated Backprojection domain"
-date: 2019-05-01 12:00:00
+date: 2019-05-17 12:00:00
 inline: false
 ---
 
