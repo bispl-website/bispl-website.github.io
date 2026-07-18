@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Congratulation on a new IEEE T-PAMI paper!"
-date: 2025-08-01 12:00:00
+date: 2025-08-04 12:00:00
 inline: false
 ---
 
