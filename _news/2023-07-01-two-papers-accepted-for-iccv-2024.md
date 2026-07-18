@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Two papers accepted for ICCV 2023!"
-date: 2023-07-01 12:00:00
+date: 2023-07-14 12:00:00
 inline: false
 ---
 
