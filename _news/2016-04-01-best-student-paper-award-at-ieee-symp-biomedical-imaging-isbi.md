@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Best Student Paper Award at IEEE Symp. Biomedical Imaging (ISBI 2016)"
-date: 2016-04-01 12:00:00
+date: 2016-04-18 12:00:00
 inline: false
 ---
 
