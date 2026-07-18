@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Two CT meeting papers have been accepted"
-date: 2014-04-01 12:00:00
+date: 2014-04-07 12:00:00
 inline: false
 ---
 
