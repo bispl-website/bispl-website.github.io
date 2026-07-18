@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "X-ray CT Recon Summer School at KAIST, Aug. 26th-Aug 27th, 2014"
-date: 2014-07-01 12:00:00
+date: 2014-07-21 12:00:00
 inline: false
 ---
 
