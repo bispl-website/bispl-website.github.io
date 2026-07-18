@@ -451,16 +451,16 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025-09-01-congratulations-four-papers-accepted-at-neurips-2025/";
-            },},{id: "news-congratulations-five-papers-accepted-to-iclr-2026",
-          title: 'Congratulations -- five papers accepted to ICLR 2026!',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/2026-01-01-congratulations-five-papers-accepted-to-iclr-2026/";
             },},{id: "news-congratulations-to-bispl-alumni-on-their-new-faculty-appointments",
           title: 'Congratulations to BISPL Alumni on Their New Faculty Appointments',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-01-01-congratulations-to-bispl-alumni-on-their-new-faculty-appointments/";
+            },},{id: "news-congratulations-five-papers-accepted-to-iclr-2026",
+          title: 'Congratulations -- five papers accepted to ICLR 2026!',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-01-01-congratulations-five-papers-accepted-to-iclr-2026/";
             },},{id: "news-congratulations-to-bispl-39-s-new-tenure-track-faculty",
           title: 'Congratulations to BISPL&amp;#39;s New Tenure-Track Faculty',
           description: "",
