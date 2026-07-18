@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Our Paper on Chemical Foundation Models Appeared on Nature Comm!"
-date: 2024-03-01 12:00:00
+date: 2024-03-14 12:00:00
 inline: false
 ---
 
