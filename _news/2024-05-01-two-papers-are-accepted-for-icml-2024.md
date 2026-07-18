@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Two papers are accepted for ICML 2024!"
-date: 2024-05-01 12:00:00
+date: 2024-05-02 12:00:00
 inline: false
 ---
 
