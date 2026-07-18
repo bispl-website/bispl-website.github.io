@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Plenary Talk at 2019 AIP Conference, Grenoble, France"
-date: 2019-07-01 12:00:00
+date: 2019-07-18 12:00:00
 inline: false
 ---
 
