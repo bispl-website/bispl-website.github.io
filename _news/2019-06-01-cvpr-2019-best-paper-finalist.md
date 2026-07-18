@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "CVPR 2019 Best Paper Finalist"
-date: 2019-06-01 12:00:00
+date: 2019-06-25 12:00:00
 inline: false
 ---
 
