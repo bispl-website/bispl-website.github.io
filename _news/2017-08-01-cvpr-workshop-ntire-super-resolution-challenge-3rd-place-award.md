@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "CVPR Workshop NTIRE Super Resolution Challenge 3rd Place Award"
-date: 2017-08-01 12:00:00
+date: 2017-08-02 12:00:00
 inline: false
 ---
 
