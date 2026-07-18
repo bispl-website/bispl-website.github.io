@@ -101,16 +101,16 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2014-12-01-ipiu-2005-image-processing-and-image-understanding-jeju-island/";
-            },},{id: "news-new-design-for-ipiu-2015",
-          title: 'New design for IPIU 2015',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/2015-01-01-new-design-for-ipiu-2015/";
             },},{id: "news-impressionist-filters",
           title: 'Impressionist filters',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2015-01-01-impressionist-filters/";
+            },},{id: "news-new-design-for-ipiu-2015",
+          title: 'New design for IPIU 2015',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2015-01-01-new-design-for-ipiu-2015/";
             },},{id: "news-samsung-human-tech-award",
           title: 'Samsung Human Tech Award',
           description: "",
