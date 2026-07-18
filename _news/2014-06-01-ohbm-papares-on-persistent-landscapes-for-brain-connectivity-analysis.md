@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Two OHBM Posters on Persistence Landscape for Brain Connectivity Analysis"
-date: 2014-06-01 12:00:00
+date: 2014-06-05 12:00:00
 inline: false
 ---
 
