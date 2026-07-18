@@ -331,16 +331,16 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2023-04-01-two-papers-accepted-to-icml-2023/";
-            },},{id: "news-keynote-speech-at-ipmi-2023-by-prof-ye",
-          title: 'Keynote Speech at IPMI 2023 by Prof. Ye',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/2023-06-01-keynote-speech-at-ipmi-2023-by-prof-ye/";
             },},{id: "news-ieee-t-pami-paper-accepted",
           title: 'IEEE T-PAMI paper accepted!',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2023-06-01-a-ieee-t-pami-paper-accepted/";
+            },},{id: "news-keynote-speech-at-ipmi-2023-by-prof-ye",
+          title: 'Keynote Speech at IPMI 2023 by Prof. Ye',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2023-06-01-keynote-speech-at-ipmi-2023-by-prof-ye/";
             },},{id: "news-two-papers-accepted-for-iccv-2023",
           title: 'Two papers accepted for ICCV 2023!',
           description: "",
