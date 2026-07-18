@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "BISPL's new home @ Graduate School of AI"
-date: 2022-02-01 12:00:00
+date: 2022-02-09 12:00:00
 inline: false
 ---
 
