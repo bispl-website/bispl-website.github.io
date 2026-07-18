@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "IPIU 2015 (Image Processing and Image Understanding) @ Jeju Island"
-date: 2014-12-01 12:00:00
+date: 2014-12-30 12:00:00
 inline: false
 ---
 
