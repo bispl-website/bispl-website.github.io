@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Congratulation! Seven papers accepted for ICLR 2025."
-date: 2025-01-01 12:00:00
+date: 2025-01-22 12:00:00
 inline: false
 ---
 
