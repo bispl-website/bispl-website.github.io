@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Deep Learning Reconstruction from 9-view Dual Energy CT for Baggage Inspection"
-date: 2018-01-01 12:00:00
+date: 2018-01-08 12:00:00
 inline: false
 ---
 
