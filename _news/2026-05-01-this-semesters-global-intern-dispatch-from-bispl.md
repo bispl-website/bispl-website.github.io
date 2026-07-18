@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "This Semester’s Global Intern Dispatch from BISPL"
-date: 2026-05-01 12:00:00
+date: 2026-05-13 12:00:00
 inline: false
 ---
 
