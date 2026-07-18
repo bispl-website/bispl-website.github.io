@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Two papers accepted to ECCV 2022"
-date: 2022-07-01 12:00:00
+date: 2022-07-06 12:00:00
 inline: false
 ---
 
