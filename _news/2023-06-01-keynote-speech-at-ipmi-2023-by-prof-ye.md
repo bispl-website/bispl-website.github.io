@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Keynote Speech at IPMI 2023 by Prof. Ye"
-date: 2023-06-01 12:00:00
+date: 2023-06-19 12:00:00
 inline: false
 ---
 
