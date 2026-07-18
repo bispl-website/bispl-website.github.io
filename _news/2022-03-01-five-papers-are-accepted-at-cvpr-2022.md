@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Five papers accepted to CVPR 2022!"
-date: 2022-03-01 12:00:00
+date: 2022-03-02 12:00:00
 inline: false
 ---
 
