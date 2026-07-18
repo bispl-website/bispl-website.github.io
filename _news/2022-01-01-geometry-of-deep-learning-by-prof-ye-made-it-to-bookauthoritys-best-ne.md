@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "\"Geometry of Deep Learning\" by Prof. Ye made it to BookAuthority's best new Signal Processing books!"
-date: 2022-01-01 12:00:00
+date: 2022-01-08 12:00:00
 inline: false
 ---
 
