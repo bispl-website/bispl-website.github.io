@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "IEEE T-PAMI paper accepted!"
-date: 2023-06-01 12:00:00
+date: 2023-06-09 12:00:00
 inline: false
 ---
 
