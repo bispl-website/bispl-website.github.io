@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Two ALOHA presentations at ISBI 2015"
-date: 2015-04-01 12:00:00
+date: 2015-04-23 12:00:00
 inline: false
 ---
 
