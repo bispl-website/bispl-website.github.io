@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Congratulations! Five papers accepted to ECCV 2026."
-date: 2026-06-01 12:00:00
+date: 2026-06-18 12:00:00
 inline: false
 ---
 
