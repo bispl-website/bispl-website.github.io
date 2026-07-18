@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "ISMRM Highlights Post"
-date: 2017-02-01 12:00:00
+date: 2017-02-21 12:00:00
 inline: false
 ---
 
