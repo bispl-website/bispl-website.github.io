@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Congratulations to BISPL Alumni on Their New Faculty Appointments"
-date: 2026-01-01 12:00:00
+date: 2026-01-26 12:00:00
 inline: false
 ---
 
