@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tutorial Material for \"Deep Learning for Biomedical Image Reconstruction \" at the 2019 IEEE Symposium on Biomedical Imaging (ISBI), Venice"
-date: 2019-04-01 12:00:00
+date: 2019-04-06 12:00:00
 inline: false
 ---
 
