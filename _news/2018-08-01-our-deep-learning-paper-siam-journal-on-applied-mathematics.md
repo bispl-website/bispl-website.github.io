@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Our Deep Learning Paper @ SIAM Journal on Applied Mathematics"
-date: 2018-08-01 12:00:00
+date: 2018-08-06 12:00:00
 inline: false
 ---
 
