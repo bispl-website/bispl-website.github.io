@@ -221,16 +221,16 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2019-04-01-tutorial-material-for-deep-learning-for-biomedical-image-reconstructio/";
-            },},{id: "news-deep-learning-roi-tomography-using-differentiated-backprojection-domain",
-          title: 'Deep Learning ROI tomography using Differentiated Backprojection domain',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/2019-05-01-deep-learning-roi-tomography-using-differentiated-backprojection-domai/";
             },},{id: "news-ismrm-plenary-talk-on-quot-machine-learning-in-medical-imaging-quot",
           title: 'ISMRM Plenary Talk on &amp;quot;Machine Learning in Medical Imaging&amp;quot;',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2019-05-01-ismrm-plenary-talk-on-machine-learning-for-medical-imaging/";
+            },},{id: "news-deep-learning-roi-tomography-using-differentiated-backprojection-domain",
+          title: 'Deep Learning ROI tomography using Differentiated Backprojection domain',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2019-05-01-deep-learning-roi-tomography-using-differentiated-backprojection-domai/";
             },},{id: "news-cvpr-2019-best-paper-finalist",
           title: 'CVPR 2019 Best Paper Finalist',
           description: "",
