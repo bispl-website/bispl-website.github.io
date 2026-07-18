@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "IEEE Fellow (Class of 2020)"
-date: 2019-12-01 12:00:00
+date: 2019-12-09 12:00:00
 inline: false
 ---
 
