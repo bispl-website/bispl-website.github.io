@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "IEEE EMBS International Summer School on Biomedical Imaging"
-date: 2018-06-01 12:00:00
+date: 2018-06-14 12:00:00
 inline: false
 ---
 
