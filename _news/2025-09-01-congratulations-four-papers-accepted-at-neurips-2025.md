@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Congratulations —four papers accepted at NeurIPS 2025!"
-date: 2025-09-01 12:00:00
+date: 2025-09-18 12:00:00
 inline: false
 ---
 
