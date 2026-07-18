@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "IEEE Sym. on Biomedical Imaging (ISBI) 2020"
-date: 2019-10-01 12:00:00
+date: 2019-10-27 12:00:00
 inline: false
 ---
 
