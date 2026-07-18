@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Our Recent IEEE TMI Paper \"Motion Adaptive Patch-Based Low-Rank Approach for Compressed Sensing Cardiac Cine MRI\""
-date: 2014-09-01 12:00:00
+date: 2014-09-23 12:00:00
 inline: false
 ---
 
