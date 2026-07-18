@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Congratulations! BISPL continues to be a cradle for academia."
-date: 2023-10-01 12:00:00
+date: 2023-10-05 12:00:00
 inline: false
 ---
 
