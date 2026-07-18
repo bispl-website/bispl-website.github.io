@@ -341,16 +341,16 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2023-06-01-keynote-speech-at-ipmi-2023-by-prof-ye/";
-            },},{id: "news-two-papers-accepted-for-iccv-2023",
-          title: 'Two papers accepted for ICCV 2023!',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/2023-07-01-two-papers-accepted-for-iccv-2024/";
             },},{id: "news-upcoming-book-by-prof-ye",
           title: 'Upcoming Book by Prof. Ye',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2023-07-01-upcoming-book-by-prof-ye/";
+            },},{id: "news-two-papers-accepted-for-iccv-2023",
+          title: 'Two papers accepted for ICCV 2023!',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2023-07-01-two-papers-accepted-for-iccv-2024/";
             },},{id: "news-two-papers-accepted-for-neurips-2023",
           title: 'Two papers accepted for NeurIPS 2023!',
           description: "",
