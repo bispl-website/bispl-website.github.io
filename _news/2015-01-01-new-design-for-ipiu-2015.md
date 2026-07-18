@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "New design for IPIU 2015"
-date: 2015-01-01 12:00:00
+date: 2015-01-18 12:00:00
 inline: false
 ---
 
