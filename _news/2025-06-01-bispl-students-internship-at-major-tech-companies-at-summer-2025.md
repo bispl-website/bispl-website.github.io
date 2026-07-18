@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Five BISPL Students’ 2025 Summer Internships at Top AI Companies"
-date: 2025-06-01 12:00:00
+date: 2025-06-25 12:00:00
 inline: false
 ---
 
