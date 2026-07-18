@@ -371,16 +371,16 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2023-11-01-prof-ye-received-the-prestigious-korean-mathematics-award/";
-            },},{id: "news-jaehyung-39-s-paper-is-accepted-by-ieee-journal-of-biomedical-amp-health-informatic",
-          title: 'Jaehyung&amp;#39;s paper is accepted by IEEE Journal of Biomedical &amp;amp; Health Informatic',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/2023-12-01-jaehyungs-paper-is-accepted-by-ieee-journal-of-biomedical-health-infor/";
             },},{id: "news-prof-ye-is-selected-as-the-fellow-of-korean-academy-of-science-and-technology-한림원",
           title: 'Prof. Ye is selected as the Fellow of Korean Academy of Science and...',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2023-12-01-prof-ye-is-selected-as-the-fellow-of-korean-academy-of-science-and-tec/";
+            },},{id: "news-jaehyung-39-s-paper-is-accepted-by-ieee-journal-of-biomedical-amp-health-informatic",
+          title: 'Jaehyung&amp;#39;s paper is accepted by IEEE Journal of Biomedical &amp;amp; Health Informatic',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2023-12-01-jaehyungs-paper-is-accepted-by-ieee-journal-of-biomedical-health-infor/";
             },},{id: "news-congraturations-gyutaek-39-s-paper-is-accepted-for-ieee-tci",
           title: 'Congraturations! Gyutaek&amp;#39;s paper is accepted for IEEE TCI.',
           description: "",
