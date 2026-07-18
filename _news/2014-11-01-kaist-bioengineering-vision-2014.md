@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "KAIST Bioengineering Vision 2014"
-date: 2014-11-01 12:00:00
+date: 2014-11-13 12:00:00
 inline: false
 ---
 
