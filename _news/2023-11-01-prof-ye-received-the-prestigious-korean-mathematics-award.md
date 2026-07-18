@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Prof. Ye received the prestigious Korean mathematics award"
-date: 2023-11-01 12:00:00
+date: 2023-11-27 12:00:00
 inline: false
 ---
 
