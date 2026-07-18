@@ -34,13 +34,9 @@ latest_posts:
 
 <h2 class="home-section">About BISPL</h2>
 
-**BISPL @ KAIST AI**, led by [Prof. Jong Chul Ye](/professor/), IEEE Fellow, explores the mathematical beauty and fundamental principles underlying modern AI.
-We study not only how AI works, but why it works—developing new theories and algorithms inspired by real-world problems.
-We believe that **actual real-world applications are a source of endless inspiration for new mathematical theories**, and we are eager to solve both specific applications
-and application-inspired fundamental theoretical problems. 
+**BISPL** —the Bio Imaging, Signal Processing, and Machine Learning Lab at KAIST AI — is led by [Prof. Jong Chul Ye](/professor/), an IEEE Fellow. Our research spans **theory & reinforcement Learning (RL) for diffusion/flow Models, LLMs & agentic AI, vision-language-action (VLA) Models, world models, computer vision, AI for science & healthcare, and medical imaging**. Across these areas, we seek to uncover the mathematical beauty and fundamental principles  of modern AI and translate them into real-world impact. We ask not only how AI works, but why it works, developing new theories and algorithms from challenging practical problems. Building on deep expertise in **biomedical imaging, signal processing, inverse problems, and machine learning**, we turn real-world applications into sources of fundamental insight—and fundamental advances into transformative technologies.
 
-Our current research spans **Theory & Reinforcement Learning (RL) for Diffusion/Flow Models, LLMs & Agentic AI, Vision-Language-Action Models, World Models, Computer Vision, AI for Science & Healthcare, and Medical Imaging**.
-Building on longstanding expertise in **bio-imaging, signal processing, inverse problems, and machine learning**, we connect rigorous theory with transformative real-world applications.
+
 
 
 Explore our [people](/people/), [publications](/publications/), and [latest news](/news/).
