@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "KAIST 석학 초청강연 (KAIST Distinguished Lecture Series)"
-date: 2017-07-01 12:00:00
+date: 2017-07-12 12:00:00
 inline: false
 ---
 
