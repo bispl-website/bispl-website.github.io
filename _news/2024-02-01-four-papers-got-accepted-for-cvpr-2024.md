@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Four papers got accepted for CVPR 2024!"
-date: 2024-02-01 12:00:00
+date: 2024-02-26 12:00:00
 inline: false
 ---
 
