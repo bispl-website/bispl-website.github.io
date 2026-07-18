@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Congratulations! Two BISPL alumni have become tenure-track faculty members."
-date: 2025-02-01 12:00:00
+date: 2025-02-17 12:00:00
 inline: false
 ---
 
