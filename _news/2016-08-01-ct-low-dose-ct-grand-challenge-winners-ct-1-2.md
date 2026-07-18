@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "We were the winners of \"Low-Dose CT Grand Challenge\" ! 바이오영상신호처리 실험실 \"저선량 CT 그랜드 챌린지\" 국제 대회 1, 2위 휩쓸어."
-date: 2016-08-01 12:00:00
+date: 2016-08-18 12:00:00
 inline: false
 ---
 
