@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Sparse SPM Toolbox is now available for download. Please see our software pages."
-date: 2015-10-01 12:00:00
+date: 2015-10-31 12:00:00
 inline: false
 ---
 
