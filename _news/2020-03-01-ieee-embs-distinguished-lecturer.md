@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "IEEE EMBS Distinguished Lecturer"
-date: 2020-03-01 12:00:00
+date: 2020-03-05 12:00:00
 inline: false
 ---
 
