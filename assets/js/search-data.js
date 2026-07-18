@@ -361,16 +361,16 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2023-10-01-congratulations-bispl-continues-to-be-a-cradle-for-academia/";
-            },},{id: "news-prof-ye-received-the-prestigious-korean-mathematics-award",
-          title: 'Prof. Ye received the prestigious Korean mathematics award',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/2023-11-01-prof-ye-received-the-prestigious-korean-mathematics-award/";
             },},{id: "news-two-papers-are-accepted-for-medical-image-analysis",
           title: 'Two papers are accepted for Medical Image Analysis.',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2023-11-01-two-papers-are-accepted-for-medical-image-analysis/";
+            },},{id: "news-prof-ye-received-the-prestigious-korean-mathematics-award",
+          title: 'Prof. Ye received the prestigious Korean mathematics award',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2023-11-01-prof-ye-received-the-prestigious-korean-mathematics-award/";
             },},{id: "news-congraturations-gyutaek-39-s-paper-is-accepted-for-ieee-tci",
           title: 'Congraturations! Gyutaek&amp;#39;s paper is accepted for IEEE TCI.',
           description: "",
