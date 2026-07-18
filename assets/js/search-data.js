@@ -81,11 +81,6 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2014-09-01-our-recent-ieee-tmi-paper-motion-adaptive-patch-based-low-rank-approac/";
-            },},{id: "news-kaist-bioengineering-vision-2014",
-          title: 'KAIST Bioengineering Vision 2014',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/2014-11-01-kaist-bioengineering-vision-2014/";
             },},{id: "news-kitware-recognizes",
           title: 'Kitware recognizes...',
           description: "",
@@ -96,6 +91,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2014-11-01-new-journal-ieee-trans-on-computational-imaging1/";
+            },},{id: "news-kaist-bioengineering-vision-2014",
+          title: 'KAIST Bioengineering Vision 2014',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2014-11-01-kaist-bioengineering-vision-2014/";
             },},{id: "news-ipiu-2015-image-processing-and-image-understanding-jeju-island",
           title: 'IPIU 2015 (Image Processing and Image Understanding) @ Jeju Island',
           description: "",
