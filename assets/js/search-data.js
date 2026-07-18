@@ -316,16 +316,16 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2023-01-01-three-papers-accepted-for-iclr-2023/";
-            },},{id: "news-three-papers-accepted-to-cvpr-2023",
-          title: 'Three papers accepted to CVPR 2023!',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/2023-03-01-three-papers-accepted-to-cvpr-2023/";
             },},{id: "news-congraturations",
           title: 'Congraturations!',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2023-03-01-congraturations/";
+            },},{id: "news-three-papers-accepted-to-cvpr-2023",
+          title: 'Three papers accepted to CVPR 2023!',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2023-03-01-three-papers-accepted-to-cvpr-2023/";
             },},{id: "news-two-papers-accepted-to-icml-2023",
           title: 'Two papers accepted to ICML 2023!',
           description: "",
