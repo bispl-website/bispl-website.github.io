@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Three papers are accepted for NeurIPS 2021!"
-date: 2021-09-01 12:00:00
+date: 2021-09-28 12:00:00
 inline: false
 ---
 
