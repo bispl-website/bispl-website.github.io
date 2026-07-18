@@ -6,15 +6,6 @@ inline: false
 ---
 
 바이오영상신호처리 여름학교 (8월 26일-27일)
-
-**ITK/VTK 설치가이드.pdf**
-
-File Size: 274 kb
-
-File Type: pdf
-
-Download File
-
 장소: 한국과학기술원 정문술 빌딩
 
 **홈페이지및 등록: [http://biosp.ieieweb.org/user/index.asp](http://biosp.ieieweb.org/user/index.asp)**
