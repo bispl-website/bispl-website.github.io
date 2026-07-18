@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Summer School for Bio Imaging and Signal Processing @ Korea"
-date: 2016-06-01 12:00:00
+date: 2016-06-20 12:00:00
 inline: false
 ---
 
