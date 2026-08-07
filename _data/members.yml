@@ -1,4 +1,27 @@
-# Auto-generated once; edit freely — GitHub rebuilds the site on save.
+# =============================================================================
+# BISPL members — this is the ONLY file you need to edit for the /people/ page.
+# 이 파일 하나만 고치면 People 페이지가 자동으로 갱신됩니다 (저장 후 2~4분).
+#
+# Fields per person / 항목별 설명:
+#   name      (required) 표시 이름
+#   initials  (required) 사진이 없을 때 원형 아이콘에 들어갈 이니셜
+#   photo     (optional) assets/img/people/ 아래 정사각형 사진 경로
+#   edu       (optional) 학력. 첫 줄만 카드에 표시됩니다.
+#   email     (optional) 이메일 → 카드에 ✉ 아이콘이 생깁니다.
+#                        스팸봇 방지를 위해 자동으로 인코딩되어 출력됩니다.
+#   website   (optional) 개인 홈페이지 → 카드에 🌐 아이콘이 생깁니다.
+#                        "https://" 는 생략해도 됩니다.
+#
+# email / website 는 넣고 싶은 사람만 넣으면 되고, 없으면 아이콘도 안 나옵니다.
+# Example / 예시:
+#     - name: "Gil Dong Hong"
+#       initials: "GD"
+#       photo: "assets/img/people/gil-dong-hong.jpg"
+#       edu:
+#         - "MS. KAIST"
+#       email: "gildong@kaist.ac.kr"
+#       website: "https://gildonghong.github.io"
+# =============================================================================
 - group: "Postdocs"
   role: "Postdoc"
   people:

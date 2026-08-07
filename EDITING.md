@@ -103,8 +103,13 @@ inline: false      # true = 한 줄 짧은 소식 / false = 제목+본문이 있
       edu:
         - "MS. KAIST"
         - "BS. Seoul Nat'l Univ."
+      email: "gildong@kaist.ac.kr"              # (선택) 이메일 아이콘
+      website: "https://gildonghong.github.io"  # (선택) 개인 홈페이지 아이콘
 ```
 - **사진**: `assets/img/people/` 에 정사각형 사진(예: 얼굴)을 넣고 위 `photo:`에 파일명. 사진이 없으면 `initials`가 원형으로 표시됩니다.
+- **이메일 / 개인 홈페이지**: `email:`, `website:` 를 넣으면 이름 아래에 ✉ / 🌐 아이콘이 생기고, 클릭하면 각각 메일 작성·홈페이지 새 탭으로 연결됩니다. 넣지 않으면 아이콘이 나오지 않으니 **원하는 사람만** 추가하면 됩니다.
+  - 이메일은 스팸봇 수집 방지를 위해 HTML 엔티티로 자동 인코딩되어 출력됩니다(화면에는 정상 동작).
+  - `website:` 는 `https://` 를 빼고 `gildonghong.github.io` 처럼 적어도 됩니다.
 - **삭제**: 해당 `- name:` 블록을 지우면 됩니다.
 - **그룹 추가**(예: "Interns"): `- group: "Interns"` 블록을 통째로 추가.
 - 표시 개수는 자동으로 세어집니다.
