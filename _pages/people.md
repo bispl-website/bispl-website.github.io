@@ -41,3 +41,9 @@ nav_order: 3
 <p style="margin-top: 2rem; color: var(--global-text-color-light);">
 Looking for former members? See the <a href="{{ '/alumni/' | relative_url }}">alumni page</a>.
 </p>
+
+<p style="font-size: .85rem; color: var(--global-text-color-light);">
+BISPL members: to add or update your email, homepage or photo, follow the
+<a href="https://github.com/bispl-website/bispl-website.github.io/blob/main/MEMBER-EDIT-GUIDE.md">member edit guide</a>
+(내 정보 수정하는 법).
+</p>
