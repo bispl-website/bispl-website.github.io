@@ -90,6 +90,21 @@ jobs:
           value: ${{ github.repository }}
       - name: Auto-number publications 🔢
         run: python3 bin/number_pubs.py
+      - name: Persist publication numbers 🔒
+        # Commits the numbers back so they are frozen for good: a paper added
+        # later gets the next free number instead of renumbering everything.
+        # [skip ci] keeps this commit from triggering another build.
+        if: github.event_name != 'pull_request'
+        run: |
+          if [ -n "$(git status --porcelain _bibliography/papers.bib)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add _bibliography/papers.bib
+            git commit -m "Assign publication numbers [skip ci]"
+            git push || echo "::warning::Could not push publication numbers; the site is still correct and the next build will retry."
+          else
+            echo "No new publication numbers to persist."
+          fi
       - name: Install and Build 🔧
         run: |
           sudo apt-get update && sudo apt-get install -y imagemagick

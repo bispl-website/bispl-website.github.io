@@ -79,11 +79,14 @@ inline: false      # true = 한 줄 짧은 소식 / false = 제목+본문이 있
   pdf       = {파일.pdf},          % (선택) assets/pdf/ 에 넣은 파일
   code      = {https://github.com/...},      % (선택)
   bibtex_show = {true},           % BibTeX 보기 버튼
-  selected  = {true},             % (선택) 홈 "selected papers"에 노출
-}
+}                                 % nums / selected 는 빌드가 자동으로 넣습니다
 ```
-- **홈 대표 논문**: 엔트리에 `selected={true}` 추가 (about.md의 `selected_papers: true`가 이를 보여줌).
-- **저자 강조**: 테마가 `Jong Chul Ye` 등 지정 저자를 자동 강조 (설정은 `_config.yml`의 `scholar` 항목).
+- **번호 `[C##]`/`[J##]`/`[B##]`**: 빌드할 때 `bin/number_pubs.py` 가 자동으로 매기므로 **손대지 마세요.**
+  - 한번 부여된 번호는 **절대 바뀌지 않습니다.** 새 논문은 항상 기존 번호 **뒤에** 붙습니다 (예: 마지막이 C103이면 다음은 C104). 오래된 논문을 뒤늦게 추가해도 마찬가지입니다.
+  - 번호는 빌드가 `papers.bib` 에 써서 저장소에 되커밋합니다. 그래서 **push 후에는 `git pull` 을 먼저** 하고 다음 작업을 하세요.
+  - `year` 는 `{2026}`, `"2026"`, `2026` 어느 형식이든 됩니다 (ACL Anthology 형식 그대로 붙여넣어도 OK).
+- **홈 대표 논문**: `selected` 필드도 같은 스크립트가 관리합니다. **가장 최신 6편이 자동으로** 홈의 "Most Recent Publications"에 올라갑니다. 직접 `selected={true}` 를 넣어도 빌드 때 덮어써집니다. 편수를 바꾸려면 `bin/number_pubs.py` 맨 위의 `N_SELECTED` 를 고치세요.
+- **저자 강조**: `_config.yml` 의 `scholar.last_name` / `scholar.first_name` 에 적힌 저자를 기울임체로 강조합니다. 현재 `Ye` + `Jong Chul` / `J. C.` / `J. Chul` 로 설정되어 있습니다.
 
 ---
 

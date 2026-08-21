@@ -270,8 +270,10 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  # Highlights the lab PI's name in every publication list.
+  # Must match how the name appears in papers.bib — hence the initial forms.
+  last_name: [Ye]
+  first_name: ["Jong Chul", "J. C.", "J. Chul"]
 
   style: apa
   locale: en
