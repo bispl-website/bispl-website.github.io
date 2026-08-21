@@ -88,6 +88,7 @@ inline: false      # true = 한 줄 짧은 소식 / false = 제목+본문이 있
   - `year` 는 `{2026}`, `"2026"`, `2026` 어느 형식이든 됩니다 (ACL Anthology 형식 그대로 붙여넣어도 OK).
 - **홈 대표 논문**: `selected` 필드도 같은 스크립트가 관리합니다. **가장 최신 6편이 자동으로** 홈의 "Most Recent Publications"에 올라갑니다. 직접 `selected={true}` 를 넣어도 빌드 때 덮어써집니다. 편수를 바꾸려면 `bin/number_pubs.py` 맨 위의 `N_SELECTED` 를 고치세요.
 - **저자 강조**: `_config.yml` 의 `scholar.last_name` / `scholar.first_name` 에 적힌 저자를 기울임체로 강조합니다. 현재 `Ye` + `Jong Chul` / `J. C.` / `J. Chul` 로 설정되어 있습니다.
+- **저자 표시 수**: `_config.yml` 의 `max_author_limit` 를 비워 두어 **모든 저자를 표시**합니다. 숫자를 넣으면 그 수만큼만 보이고 나머지는 "and N more authors"로 접히는데, 교수님이 마지막 저자인 논문에서는 성함이 아예 사라지므로 비워 두는 것을 권합니다.
 
 ---
 
