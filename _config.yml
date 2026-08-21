@@ -160,6 +160,17 @@ collections:
 # Jekyll settings
 # -----------------------------------------------------------------------------
 
+# Dates in front matter are written in Korean local time, not the build
+# runner's UTC. Without this, `date: 2026-08-21 12:00:00` meant noon UTC
+# (9pm KST) and any build earlier that day treated the post as future-dated.
+timezone: Asia/Seoul
+
+# Publish posts dated in the future instead of silently skipping their page.
+# Jekyll still lists a future-dated item in /news/ but refuses to write its
+# page, which produces a linked 404 — exactly what happened to the EMNLP
+# announcement. Nobody here schedules posts ahead of time, so always publish.
+future: true
+
 # Markdown and syntax highlight
 markdown: kramdown
 highlighter: rouge
