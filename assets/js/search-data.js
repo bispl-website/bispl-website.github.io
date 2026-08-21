@@ -491,6 +491,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-07-01-academic-internship/";
+            },},{id: "news-three-papers-including-two-in-findings-accepted-to-emnlp-2026",
+          title: 'Three papers (including two in Findings) accepted to EMNLP 2026!',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-08-21-news/";
             },},{
         id: 'social-scholar',
         title: 'Google Scholar',
