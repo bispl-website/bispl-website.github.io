@@ -79,11 +79,14 @@ inline: false      # true = 한 줄 짧은 소식 / false = 제목+본문이 있
   pdf       = {파일.pdf},          % (선택) assets/pdf/ 에 넣은 파일
   code      = {https://github.com/...},      % (선택)
   bibtex_show = {true},           % BibTeX 보기 버튼
-  selected  = {true},             % (선택) 홈 "selected papers"에 노출
-}
+}                                 % nums / selected 는 빌드가 자동으로 넣습니다
 ```
-- **홈 대표 논문**: 엔트리에 `selected={true}` 추가 (about.md의 `selected_papers: true`가 이를 보여줌).
-- **저자 강조**: 테마가 `Jong Chul Ye` 등 지정 저자를 자동 강조 (설정은 `_config.yml`의 `scholar` 항목).
+- **번호 `[C##]`/`[J##]`/`[B##]`**: 빌드할 때 `bin/number_pubs.py` 가 자동으로 매기므로 **손대지 마세요.**
+  - 한번 부여된 번호는 **절대 바뀌지 않습니다.** 새 논문은 항상 기존 번호 **뒤에** 붙습니다 (예: 마지막이 C103이면 다음은 C104). 오래된 논문을 뒤늦게 추가해도 마찬가지입니다.
+  - 번호는 빌드가 `papers.bib` 에 써서 저장소에 되커밋합니다. 그래서 **push 후에는 `git pull` 을 먼저** 하고 다음 작업을 하세요.
+  - `year` 는 `{2026}`, `"2026"`, `2026` 어느 형식이든 됩니다 (ACL Anthology 형식 그대로 붙여넣어도 OK).
+- **홈 대표 논문**: `selected` 필드도 같은 스크립트가 관리합니다. **가장 최신 6편이 자동으로** 홈의 "Most Recent Publications"에 올라갑니다. 직접 `selected={true}` 를 넣어도 빌드 때 덮어써집니다. 편수를 바꾸려면 `bin/number_pubs.py` 맨 위의 `N_SELECTED` 를 고치세요.
+- **저자 강조**: `_config.yml` 의 `scholar.last_name` / `scholar.first_name` 에 적힌 저자를 기울임체로 강조합니다. 현재 `Ye` + `Jong Chul` / `J. C.` / `J. Chul` 로 설정되어 있습니다.
 
 ---
 
@@ -148,6 +151,7 @@ inline: false      # true = 한 줄 짧은 소식 / false = 제목+본문이 있
 - **이미지가 안 보임**: 경로가 `assets/img/...` 로 정확한지, 파일명 대소문자가 맞는지 확인.
 - **YAML 파일(.yml) 오류**: 들여쓰기(스페이스 2칸)와 따옴표를 지켜야 빌드가 됩니다. 저장 후 Actions에서 실패 뜨면 그 파일의 들여쓰기부터 확인.
 - **빌드 실패**: 저장소 **Actions 탭**에서 빨간 X를 클릭하면 어느 줄이 문제인지 로그가 나옵니다.
+- **빌드가 아예 시작조차 안 됨**: 커밋 메시지에 `[` `skip ci` `]` (대괄호로 감싼 형태) 문자열이 들어가면 GitHub Actions가 그 커밋을 통째로 건너뜁니다. 제목뿐 아니라 **본문에 설명으로 적어도** 걸리니, 커밋 메시지에는 쓰지 마세요. Actions 탭에 실행 기록 자체가 없으면 이걸 의심하세요.
 - 반영은 커밋 후 **2~5분**. 급하면 Actions에서 빌드 완료를 확인하고 ⌘⇧R.
 
 ---
