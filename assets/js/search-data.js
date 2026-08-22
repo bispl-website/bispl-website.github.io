@@ -496,6 +496,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-08-21-news/";
+            },},{id: "news-congratulations-to-bispl-39-s-new-tenure-track-faculty",
+          title: 'Congratulations to BISPL&amp;#39;s New Tenure-Track Faculty',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-08-22-new-faculty/";
             },},{
         id: 'social-scholar',
         title: 'Google Scholar',
