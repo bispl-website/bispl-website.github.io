@@ -265,3 +265,9 @@
         - "BS. AI, Ewha Womans Univ."
 
       email: "yoojin.oh@kaist.ac.kr"
+    - name: "Chaebeen Bang"
+      initials: "CB"
+      photo: "assets/img/people/chaebeen-bang.jpg"
+      edu:
+        - "BS. AI, Kyunghee Univ."
+      email: "chaebeen@kaist.ac.kr"
