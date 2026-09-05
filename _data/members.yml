@@ -267,7 +267,7 @@
       email: "yoojin.oh@kaist.ac.kr"
     - name: "Chaebeen Bang"
       initials: "CB"
-      photo: "assets/img/people/chaebeen-bang.jpg"
+      photo: "assets/img/people/chaebeen_bang.jpg"
       edu:
         - "BS. AI, Kyunghee Univ."
       email: "chaebeen@kaist.ac.kr"
