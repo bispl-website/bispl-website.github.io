@@ -178,7 +178,7 @@
       edu:
         - "MS. AI, KAIST"
       email: "hongeun@kaist.ac.kr"
-     - name: "ByungHee Cha"
+    - name: "ByungHee Cha"
       initials: "BC"
       photo: "assets/img/people/byunghee-cha.jpg"
       edu:
@@ -207,7 +207,7 @@
       website: "https://youngjun-jun.github.io/"
     - name: "Hyeonjae Kim"
       initials: "HK"
-      photo: "assets/img/people/heonjae-kim.jpg"
+      photo: "assets/img/people/hyeonjae-kim.jpg"
       edu:
         - "MS. CSE, Hanyang Univ."
       email: "hyeonjaekim@kaist.ac.kr"
@@ -215,7 +215,7 @@
       initials: "CM"
       photo: "assets/img/people/chanyu-moon.jpg"
       edu:
-     - "MS. EECS, DGIST"
+        - "MS. EECS, DGIST"
       email: "moon.chanyu@kaist.ac.kr"
       website: "https://youngjun-jun.github.io/"
 - group: "M.S. Students"
@@ -299,7 +299,7 @@
       email: "kimmg0403@gmail.com"
     - name: "Yunkyung Ko"
       initials: "YK"
-      photo: "assets/img/people/yunkyung-ko.jpg"
+      photo: "assets/img/people/yunkyung-ko.jpeg"
       edu:
         - "BS. Statistics, Korea Univ."
       email: "gomgyng2@kaist.ac.kr"
