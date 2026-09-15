@@ -134,8 +134,9 @@
       photo: "assets/img/people/suhyeon-lee.jpg"
       edu:
         - "MS. AI, KAIST"
-        - "BS. CS, KAIST"
+        - "BS. CS / BBE, KAIST"
       email: "suhyeon.lee@kaist.ac.kr"
+      website: "https://hyn2028.github.io/"
     - name: "Jang Ho Park"
       initials: "JH"
       photo: "assets/img/people/jang-ho-park.jpg"
