@@ -284,18 +284,6 @@
       edu:
         - "BS. AI, Ewha Womans Univ."
       email: "yoojin.oh@kaist.ac.kr"
-    - name: "Chaebeen Bang"
-      initials: "CB"
-      photo: "assets/img/people/chaebeen-bang.jpg"
-      edu:
-        - "BS. AI, Kyunghee Univ."
-      email: "chaebeen@kaist.ac.kr"
-    - name: "Mingeon Kim"
-      initials: "MK"
-      photo: "assets/img/people/mingeon-kim.jpg"
-      edu:
-        - "BS. MAS/EE, KAIST "
-      email: "kimmg0403@gmail.com"
     - name: "Yunkyung Ko"
       initials: "YK"
       photo: "assets/img/people/yunkyung-ko.jpeg"
@@ -309,6 +297,18 @@
         - "BS. CS, Korea Univ."
       email: "zeromin03@kaist.ac.kr"
       website: "https://ggred0123.github.io/"
+    - name: "Chaebeen Bang"
+      initials: "CB"
+      photo: "assets/img/people/chaebeen-bang.jpg"
+      edu:
+        - "BS. AI, Kyunghee Univ."
+      email: "chaebeen@kaist.ac.kr"
+    - name: "Mingeon Kim"
+      initials: "MK"
+      photo: "assets/img/people/mingeon-kim.jpg"
+      edu:
+        - "BS. MAS/EE, KAIST "
+      email: "kimmg0403@gmail.com"
     - name: "Yeonwoo Seo"
       initials: "YS"
       photo: "assets/img/people/yeonwoo-seo.jpg"
