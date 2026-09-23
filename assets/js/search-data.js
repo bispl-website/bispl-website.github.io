@@ -506,6 +506,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-08-22-new-faculty/";
+            },},{id: "news-kairi-summer-interns-win-the-grounded-video-qa-track-at-the-perception-test-challenge",
+          title: 'KAIRI Summer Interns Win the Grounded Video-QA Track at the Perception Test Challenge...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-09-09-perception-test-challenge-winner/";
             },},{
         id: 'social-scholar',
         title: 'Google Scholar',
