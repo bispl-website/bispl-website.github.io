@@ -486,6 +486,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-06-01-congratulations-five-papers-accepted-to-eccv-2026/";
+            },},{id: "news-best-paper-award-at-the-icml-2026-spigm-workshop",
+          title: 'Best Paper Award at the ICML 2026 SPIGM Workshop',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-07-10-rsm-best-paper-icml-2026-spigm/";
             },},{id: "news-bispl-students-awarded-funded-research-internships-at-prestigious-research-institutes",
           title: 'BISPL Students Awarded Funded Research Internships at Prestigious Research Institutes',
           description: "",
