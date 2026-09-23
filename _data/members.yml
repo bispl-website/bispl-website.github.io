@@ -314,5 +314,10 @@
       photo: "assets/img/people/yeonwoo-seo.jpg"
       edu:
         - "BS. CSE, Korea Univ."
-      email: "yws0322@kaist.ac.kr"
-      
+      email: "yws0322@kaist.ac.kr"   
+    - name: "Shayan Baghayi Nejad"
+      initials: "SBN"
+      photo: "assets/img/people/shayan-baghayi-nejad.jpg"
+      edu:
+        - "BS. CSE, Sharif University of Technology, Iran."
+      email: "shayan@kaist.ac.kr"
