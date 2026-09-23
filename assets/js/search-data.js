@@ -506,8 +506,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-08-22-new-faculty/";
-            },},{id: "news-kairi-summer-interns-win-the-grounded-video-qa-track-at-the-perception-test-challenge",
-          title: 'KAIRI Summer Interns Win the Grounded Video-QA Track at the Perception Test Challenge...',
+            },},{id: "news-kairi-summer-interns-win-the-grounded-video-qa-track-at-the-eccv-2026-perception-test-challenge",
+          title: 'KAIRI Summer Interns Win the Grounded Video-QA Track at the ECCV 2026 Perception...',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-09-09-perception-test-challenge-winner/";
