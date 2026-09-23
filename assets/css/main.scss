@@ -76,6 +76,24 @@ code, pre, kbd, tt, samp, .highlight, .highlighter-rouge {
 .pub-num-J { background: rgba(15, 143, 127, 0.15); color: #0d8f7f; }
 .pub-num-B { background: rgba(138, 79, 192, 0.15); color: #8a4fc0; }
 
+// Totals under the C/J/B key, and the per-year tally at the right end of each
+// year bar. Both are written in by the script in _pages/publications.md --
+// jekyll-scholar offers no hook for either -- so they are styled here to sit
+// quietly beside the numbers rather than compete with them.
+.publication-totals {
+  font-family: $bispl-mono !important;
+  font-size: 0.82rem;
+  margin: 0.15rem 0 0.2rem;
+}
+.publications h2.bibliography .year-count {
+  font-family: $bispl-mono !important;
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0;
+  white-space: nowrap;
+  color: var(--global-text-color-light);
+}
+
 // Year header rendered as a section bar
 .publications h2.bibliography {
   display: flex;
