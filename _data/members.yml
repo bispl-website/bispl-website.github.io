@@ -6,7 +6,7 @@
 #   name      (required) 표시 이름
 #   initials  (required) 사진이 없을 때 원형 아이콘에 들어갈 이니셜
 #   photo     (optional) assets/img/people/ 아래 정사각형 사진 경로
-#   edu       (optional) 학력. 첫 줄만 카드에 표시됩니다.
+#   edu       (optional) 학력. 최신순으로 적으면 카드에는 학부부터 거꾸로 표시됩니다.
 #   email     (optional) 이메일 → 카드에 ✉ 아이콘이 생깁니다.
 #                        스팸봇 방지를 위해 자동으로 인코딩되어 출력됩니다.
 #   website   (optional) 개인 홈페이지 → 카드에 🌐 아이콘이 생깁니다.
@@ -72,8 +72,8 @@
       initials: "BK"
       photo: "assets/img/people/beomsu-kim.jpg"
       edu:
-        - "BS. Math, KAIST"
         - "MS. BBE, KAIST"
+        - "BS. Math, KAIST"
       email: "beomsu.kim@kaist.ac.kr"
     - name: "Choonghan Kim"
       initials: "CK"
@@ -165,18 +165,21 @@
       photo: "assets/img/people/hongeun-kim.jpg"
       edu:
         - "MS. AI, KAIST"
+        - "BS. Biotechnology/Artificial Intelligence, Korea Univ."
       email: "hongeun@kaist.ac.kr"
     - name: "ByungHee Cha"
       initials: "BC"
       photo: "assets/img/people/byunghee-cha.jpg"
       edu:
         - "MS. AI, KAIST"
+        - "BS. CS, SNU"
       email: "paulcha1025@kaist.ac.kr"
     - name: "Yeobin Hong"
       initials: "YH"
       photo: "assets/img/people/yeobin-hong.jpg"
       edu:
         - "MS. AI, KAIST"
+        - "BS. Math, Korea Univ."
       email: "yeobin34@kaist.ac.kr"
       website: "https://yeobinhong.github.io"
     - name: "Seonghyun Jin"
@@ -191,6 +194,7 @@
       photo: "assets/img/people/jongmin-kim.jpg"
       edu:
         - "MS. AI, KAIST"
+        - "BS. Industrial and Management Engineering, Korea Univ."
       email: "jmin.kim@kaist.ac.kr"
     - name: "Youngjun Jun"
       initials: "YJ"
@@ -219,6 +223,7 @@
       photo: "assets/img/people/byungjun-kim.jpg"
       edu:
         - "MS. AI, KAIST"
+        - "BS. EE, KAIST"
       email: "app54781@kaist.ac.kr"
       website: "https://byungjun-k.github.io/"
     - name: "Jonghyun Park"
