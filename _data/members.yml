@@ -160,12 +160,6 @@
         - "MS. AI, KAIST"
         - "BS. CS, KAIST"
       email: "leedh7@kaist.ac.kr"
-    - name: "Jongmin Kim"
-      initials: "JK"
-      photo: "assets/img/people/jongmin-kim.jpg"
-      edu:
-        - "MS. AI, KAIST"
-      email: "jmin.kim@kaist.ac.kr"
     - name: "Hongeun Kim"
       initials: "HK"
       photo: "assets/img/people/hongeun-kim.jpg"
@@ -185,6 +179,19 @@
         - "MS. AI, KAIST"
       email: "yeobin34@kaist.ac.kr"
       website: "https://yeobinhong.github.io"
+    - name: "Seonghyun Jin"
+      initials: "SJ"
+      photo: "assets/img/people/seonghyun-jin.jpg"
+      edu:
+        - "BS. CSE / BA. Econ., SNU"
+      email: "jinotter3@kaist.ac.kr"
+      website: "https://jinotter3.github.io/"
+    - name: "Jongmin Kim"
+      initials: "JK"
+      photo: "assets/img/people/jongmin-kim.jpg"
+      edu:
+        - "MS. AI, KAIST"
+      email: "jmin.kim@kaist.ac.kr"
     - name: "Youngjun Jun"
       initials: "YJ"
       photo: "assets/img/people/youngjun-jun.jpg"
@@ -204,13 +211,6 @@
       edu:
         - "MS. EECS, DGIST"
       email: "moon.chanyu@kaist.ac.kr"
-    - name: "Seonghyun Jin"
-      initials: "SJ"
-      photo: "assets/img/people/seonghyun-jin.jpg"
-      edu:
-        - "BS. CSE / BA. Econ., SNU"
-      email: "jinotter3@kaist.ac.kr"
-      website: "https://jinotter3.github.io/"
 - group: "M.S. Students"
   role: "M.S. Student"
   people:
