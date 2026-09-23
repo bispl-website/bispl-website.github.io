@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "KAIRI Summer Interns Win the Grounded Video-QA Track at the Perception Test Challenge"
+title: "KAIRI Summer Interns Win the Grounded Video-QA Track at the ECCV 2026 Perception Test Challenge"
 date: 2026-09-09 00:00:00
 inline: false
 ---
