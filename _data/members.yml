@@ -6,7 +6,7 @@
 #   name      (required) 표시 이름
 #   initials  (required) 사진이 없을 때 원형 아이콘에 들어갈 이니셜
 #   photo     (optional) assets/img/people/ 아래 정사각형 사진 경로
-#   edu       (optional) 학력. 최신순으로 적으면 카드에는 학부부터 거꾸로 표시됩니다.
+#   edu       (optional) 학력. 최신순으로 적고, 카드에는 첫 줄(가장 최근)만 표시됩니다.
 #   email     (optional) 이메일 → 카드에 ✉ 아이콘이 생깁니다.
 #                        스팸봇 방지를 위해 자동으로 인코딩되어 출력됩니다.
 #   website   (optional) 개인 홈페이지 → 카드에 🌐 아이콘이 생깁니다.
@@ -200,7 +200,7 @@
       initials: "YJ"
       photo: "assets/img/people/youngjun-jun.jpg"
       edu:
-        - "MS. AI, KAIST"
+        - "MS. AI, Yonsei Univ."
       email: "youngjun.jun@kaist.ac.kr"
       website: "https://youngjun-jun.github.io/"
     - name: "Hyeonjae Kim"

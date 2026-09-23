@@ -14,7 +14,6 @@ nav_order: 3
 .person .ph-init { display: grid; place-items: center; font-weight: 700; font-size: 1.5rem; color: #fff; background: linear-gradient(135deg, var(--global-theme-color), #12a3a3); }
 .person .nm { font-weight: 600; line-height: 1.2; }
 .person .ed { font-size: .72rem; color: var(--global-text-color-light); margin-top: .2rem; }
-.person .ed-line { display: block; }
 .person .lk { display: flex; justify-content: center; gap: .5rem; margin-top: .35rem; }
 .person .lk a { color: var(--global-text-color-light); font-size: 1rem; line-height: 1; text-decoration: none; transition: color .15s ease; }
 .person .lk a:hover { color: var(--global-theme-color); text-decoration: none; }
@@ -29,7 +28,7 @@ nav_order: 3
     {% if p.photo %}<img class="ph" src="{{ p.photo | relative_url }}" alt="{{ p.name }}" loading="lazy">{% else %}<div class="ph ph-init">{{ p.initials }}</div>{% endif %}
     <div class="nm">{{ p.name }}</div>
     {%- if p.edu %}
-    <div class="ed">{% for e in p.edu reversed %}<span class="ed-line">{{ e }}</span>{% endfor %}</div>
+    <div class="ed">{{ p.edu | first }}</div>
     {%- endif %}
     {%- if p.email or p.website %}
     <div class="lk">{% if p.email %}<a href="mailto:{{ p.email | encode_email }}" title="Email {{ p.name }}" aria-label="Email {{ p.name }}"><i class="ti ti-mail"></i></a>{% endif %}{% if p.website %}{% assign homepage_url = p.website %}{% unless homepage_url contains "://" %}{% assign homepage_url = "https://" | append: homepage_url %}{% endunless %}<a href="{{ homepage_url }}" target="_blank" rel="noopener noreferrer" title="{{ p.name }} homepage" aria-label="{{ p.name }} homepage"><i class="ti ti-world"></i></a>{% endif %}</div>
