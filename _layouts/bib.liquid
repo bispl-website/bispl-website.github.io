@@ -168,6 +168,20 @@
     {% if entry.year %}
       {% capture entryyear %}{{ " " }}{{ entry.year }}{% endcapture %}
     {% endif %}
+    {%- comment -%}
+      Volume, issue and pages were parsed out of the .bib but never printed, so
+      the thirteen entries that record them properly showed less than the ones
+      that crammed the same text into the journal name. Printed here they match.
+    {%- endcomment -%}
+    {% if entry.volume %}
+      {% capture entrytype %}{{ entrytype }}{{ ", vol. " }}{{ entry.volume }}{% endcapture %}
+    {% endif %}
+    {% if entry.number %}
+      {% capture entrytype %}{{ entrytype }}{{ ", no. " }}{{ entry.number }}{% endcapture %}
+    {% endif %}
+    {% if entry.pages %}
+      {% capture entrytype %}{{ entrytype }}{{ ", pp. " }}{{ entry.pages | replace: '--', '-' }}{% endcapture %}
+    {% endif %}
     {% if entry.location %}
       {% capture entrytype %}{{ entrytype }}{{ ", " }}{{ entry.location }}{% endcapture %}
     {% endif -%}
