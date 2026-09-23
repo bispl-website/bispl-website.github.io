@@ -157,6 +157,20 @@
       {% capture entrytype %}<em>In {{ entry.booktitle }}</em>{% endcapture %}
     {% elsif thesis contains entry.type %}
       {% capture entrytype %}<em>{{ entry.school }}</em>{% endcapture %}
+    {%- comment -%}
+      A book printed only its title, author and year: the publisher field was
+      never rendered, so the two books on this page said less than a two-page
+      workshop paper. Publisher, series and ISBN are shown here the way a
+      journal name is shown for an article.
+    {%- endcomment -%}
+    {% elsif entry.type == 'book' %}
+      {% capture entrytype %}<em>{{ entry.publisher }}</em>{% endcapture %}
+      {% if entry.series %}
+        {% capture entrytype %}{{ entrytype }}{{ ", " }}{{ entry.series }}{% endcapture %}
+      {% endif %}
+      {% if entry.isbn %}
+        {% capture entrytype %}{{ entrytype }}{{ ", ISBN " }}{{ entry.isbn }}{% endcapture %}
+      {% endif %}
     {% else %}
       {% capture entrytype %}{% endcapture %}
     {% endif %}
