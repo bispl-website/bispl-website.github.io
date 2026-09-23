@@ -81,7 +81,7 @@
       edu:
         - "MS. AI, POSTECH"
         - "MS. Mathematics, Sogang Univ."
-        - "BS. Physics, Sogang Univ. ersity"
+        - "BS. Physics, Sogang Univ."
       email: "choonghankim@kaist.ac.kr"
     - name: "Hyunmin Hwang"
       initials: "HH"
@@ -104,7 +104,7 @@
       photo: "assets/img/people/duy-khanh-pham.jpg"
       edu:
         - "MS. KAIST"
-        - "BS. BE/ECE, H anoi University of Science and Technology"
+        - "BS. BE/ECE, Hanoi University of Science and Technology"
       email: "khanh.pd4831@kaist.ac.kr"
     - name: "Jinho Chang"
       initials: "JC"
@@ -275,7 +275,7 @@
       initials: "GL"
       photo: "assets/img/people/geonyoung-lee.jpg"
       edu:
-        - "BS. Biomedical Engineering/ Math, Korea Univ."
+        - "BS. Biomedical Engineering/Math, Korea Univ."
       email: "gun0lee@kaist.ac.kr"
     - name: "Jeongchan Kim"
       initials: "JK"
@@ -312,7 +312,7 @@
       initials: "MK"
       photo: "assets/img/people/mingeon-kim.jpg"
       edu:
-        - "BS. MAS/EE, KAIST "
+        - "BS. MAS/EE, KAIST"
       email: "kimmg0403@gmail.com"
     - name: "Yeonwoo Seo"
       initials: "YS"
