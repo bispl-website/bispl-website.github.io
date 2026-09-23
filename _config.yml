@@ -185,7 +185,10 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ["_pages", "_scripts"]
+# _bibliography is included so papers.bib is served as a static file: the
+# download button on the publications page links straight at the source the
+# page is built from, so it can never fall out of date with what is listed.
+include: ["_pages", "_scripts", "_bibliography"]
 exclude:
   - bin/
   - CONTRIBUTING.md

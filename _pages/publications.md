@@ -15,6 +15,12 @@ nav_order: 4
 
 <div class="publication-totals text-muted" id="publication-totals"></div>
 
+<a class="btn btn-sm z-depth-0 bib-download" role="button" download
+   href="{{ '/_bibliography/papers.bib' | relative_url }}"
+   title="Download every entry on this page as BibTeX">
+  <i class="ti ti-download"></i> Download all as BibTeX
+</a>
+
 {% include bib_search.liquid %}
 
 <div class="publications">
