@@ -511,6 +511,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-09-09-perception-test-challenge-winner/";
+            },},{id: "news-six-papers-accepted-to-neurips-2026",
+          title: 'Six Papers Accepted to NeurIPS 2026',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-09-26-six-papers-neurips-2026/";
             },},{
         id: 'social-scholar',
         title: 'Google Scholar',
