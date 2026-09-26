@@ -11,7 +11,7 @@ social: false
 announcements:
   enabled: false   # rendered manually below so we control the page order
   scrollable: true
-  limit: 5
+  limit: 10
 
 latest_posts:
   enabled: false
