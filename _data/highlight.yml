@@ -2,6 +2,6 @@
 # To feature a different paper, just edit these fields (and drop a new image
 # into assets/img/highlight/).
 title: "Accelerating Video Inverse Problem Solvers with Autoregressive Diffusion Models"
-authors: "Taesung Kwon, Jonghyun Park, Hyungjin Chung, Jong Chul Ye --- NeurIPS 2026"
+authors: "Taesung Kwon et al., NeurIPS 2026"
 url: "https://arxiv.org/abs/2605.20624"
 image: "assets/img/highlight/avis.jpg"
