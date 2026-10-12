@@ -516,6 +516,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-09-26-six-papers-neurips-2026/";
+            },},{id: "news-contextmri-accepted-to-medical-image-analysis",
+          title: 'ContextMRI Accepted to Medical Image Analysis',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-10-12-contextmri-accepted-mia/";
             },},{
         id: 'social-scholar',
         title: 'Google Scholar',
