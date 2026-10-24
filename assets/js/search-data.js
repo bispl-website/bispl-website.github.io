@@ -521,6 +521,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-10-12-contextmri-accepted-mia/";
+            },},{id: "news-prof-jong-chul-ye-ranked-4th-worldwide-in-medical-imaging-and-1st-in-korea-in-ict-in-the-2026-stanford-elsevier-rankings",
+          title: 'Prof. Jong Chul Ye Ranked 4th Worldwide in Medical Imaging and 1st in...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-10-24-stanford-elsevier-rankings-2026/";
             },},{
         id: 'social-scholar',
         title: 'Google Scholar',
