@@ -25,6 +25,13 @@ HOME PAGE — the "Most Recent Publications" section renders entries flagged
 that flag: it clears every `selected` field and re-applies it to the
 N_SELECTED most recent entries, sorted by year then by position in the file.
 Do not set `selected` by hand — it is overwritten on every build.
+
+  * To keep a paper out of that section, put `skip_selected = {true}` in its
+    entry. It is then never chosen, and the slot goes to the next most recent
+    paper without one, so the section still shows N_SELECTED papers. The
+    numbering and the publications page are unaffected — the paper is listed
+    there as usual. Added 2026-10-25 for venues the PI does not want on the
+    front page; it is a per-entry decision, not a venue rule in code.
 """
 import os, re
 from collections import defaultdict
@@ -39,6 +46,7 @@ LABEL = {"inproceedings": "C", "article": "J", "book": "B"}
 ENTRY_RE = re.compile(r"^\s*@(\w+)\s*\{", re.I)
 NUMS_RE = re.compile(r"^\s*nums\s*=\s*\{?\s*([A-Z]+)(\d+)", re.I)
 SEL_RE = re.compile(r"^\s*selected\s*=", re.I)
+SKIP_RE = re.compile(r"^\s*skip_selected\s*=\s*\{?\s*true", re.I)
 YEAR_RE = re.compile(r"^\s*year\s*=\s*[\"{]?\s*(\d{4})")
 
 lines = open(BIB, encoding="utf-8").read().split("\n")
@@ -49,7 +57,7 @@ for line in lines:
     m = ENTRY_RE.match(line)
     if m:
         entries.append({"type": m.group(1).lower(), "body": [line],
-                        "year": 0, "num": None})
+                        "year": 0, "num": None, "skip": False})
         continue
     if not entries:
         preamble.append(line)
@@ -61,6 +69,8 @@ for line in lines:
         continue
     if SEL_RE.match(line):                  # this script owns `selected`
         continue
+    if SKIP_RE.match(line):                 # kept in the body, read here
+        e["skip"] = True
     ym = YEAR_RE.match(line)
     if ym and e["year"] == 0:
         e["year"] = int(ym.group(1))
@@ -88,7 +98,8 @@ for typ, group in by_type.items():
         assigned += 1
 
 # --- home page selection: the N most recent ---------------------------------
-recent = sorted(entries, key=lambda e: (-e["year"], e["pos"]))[:N_SELECTED]
+recent = sorted([e for e in entries if not e["skip"]],
+                key=lambda e: (-e["year"], e["pos"]))[:N_SELECTED]
 for e in recent:
     e["selected"] = True
 
@@ -105,8 +116,8 @@ open(BIB, "w", encoding="utf-8").write("\n".join(out))
 
 print("Publications: " + ", ".join(
     "%s=%d" % (LABEL.get(t, "P"), len(g)) for t, g in sorted(by_type.items())))
-print("Newly numbered: %d   |   Featured on home page: %d"
-      % (assigned, len(recent)))
+print("Newly numbered: %d   |   Featured on home page: %d   |   Opted out: %d"
+      % (assigned, len(recent), sum(1 for e in entries if e["skip"])))
 for e in recent:
     title = next((l for l in e["body"] if re.match(r"\s*title\s*=", l)), "")
     title = re.sub(r"\s*title\s*=\s*\{?", "", title).rstrip("},").strip()
