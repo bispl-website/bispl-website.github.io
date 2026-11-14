@@ -74,7 +74,10 @@ jobs:
       - name: Setup Ruby 💎
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.3.5"
+          # Track the 3.3 series rather than one patch release: ubuntu-latest
+          # rotated to 26.04 in November 2026 and stopped providing 3.3.5, which
+          # broke every deploy until this was changed.
+          ruby-version: "3.3"
           bundler-cache: true
       - name: Setup Python 🐍
         uses: actions/setup-python@v5
